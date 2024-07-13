@@ -31,8 +31,8 @@ ALLOWED_HOSTS = [
     'examzen-production.up.railway.app',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://examzen-production.up.railway.app']
-CSRF_COOKIE_SECURE = True
+CSRF_TRUSTED_ORIGINS = ['https://examzen-production.up.railway.app', 'http://192.168.1.69']
+CSRF_COOKIE_SECURE = False
 
 # Application definition
 
