@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure-a%r3hy1s-_6jc!yj2x(6ib*9_d=ckqii7&wema9vcpus=hm@6_
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['web-production-2e581.up.railway.app', '127.0.0.1']
+ALLOWED_HOSTS = ['examzen.up.railway.app', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -69,7 +69,6 @@ USE_I18N = True
 USE_TZ = True
 
 
-
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
@@ -77,7 +76,7 @@ STATIC_ROOT =os.path.join(BASE_DIR, 'staticfiles')
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-CSRF_TRUSTED_ORIGINS = ['https://web-production-2e581.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://examzen.up.railway.app']
 
 DATABASES = {
     'default': { 
