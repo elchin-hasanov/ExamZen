@@ -2,8 +2,8 @@ import subprocess
 import json
 
 # Define the range of primary keys you want to dump
-start_pk = 1102  # Starting primary key
-end_pk = 2000    # Ending primary key
+start_pk = 1500  # Starting primary key
+end_pk = 2500    # Ending primary key
 
 output_file = 'questions_part2.json'  # Output file name
 
