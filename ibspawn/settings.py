@@ -25,15 +25,9 @@ SECRET_KEY = 'django-insecure-a%r3hy1s-_6jc!yj2x(6ib*9_d=ckqii7&wema9vcpus=hm@6_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [    
-    '127.0.0.1',
-    '127.0.0.1:8000',
-    'examzen-production.up.railway.app',
-    '192.168.1.69'
-]
+ALLOWED_HOSTS = ['examzen-production.up.railway.app', '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['https://examzen-production.up.railway.app', 'http://192.168.1.69']
-CSRF_COOKIE_SECURE = False
+CSRF_TRUSTED_ORIGINS = ['https://examzen-production.up.railway.app']
 
 # Application definition
 
@@ -57,9 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-
 ]
-
 
 ROOT_URLCONF = 'ibspawn.urls'
 
@@ -132,7 +124,8 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
-STATIC_ROOT = BASE_DIR / "staticfiles"
+STATIC_ROOT =os.path.join(BASE_DIR, 'staticfiles')
+
 
 
 # Default primary key field type
