@@ -1,0 +1,710 @@
+[
+{
+  "model": "main.question",
+  "pk": 1102,
+  "fields": {
+    "subject": 3,
+    "text": "A projectile is fired horizontally from the top of a cliff. The projectile hits the ground 4 s later at a distance of 2 km from the base of the cliff. What is the height of the cliff?",
+    "answer": "D. 160 m",
+    "paper": "1",
+    "choices": "A. 40 m\\nB. 80 m\\nC. 120 m\\nD. 160 m",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1103,
+  "fields": {
+    "subject": 3,
+    "text": "A block of weight \\( W \\) is suspended by two strings of equal length. The strings are almost horizontal. What is correct about the tension \\( T \\) in one string?",
+    "answer": "D. \\( T > W \\)",
+    "paper": "1",
+    "choices": "A. \\( T < \\frac{W}{2} \\)\\nB. \\( T = \\frac{W}{2} \\)\\nC. \\( \\frac{W}{2} < T \\le W \\)\\nD. \\( T > W \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1104,
+  "fields": {
+    "subject": 3,
+    "text": "A block of mass 1.0 kg rests on a trolley of mass 4.0 kg. The coefficient of dynamic friction between the block and the trolley is 0.30. A horizontal force \\( F = 5.0 \\, \\text{N} \\) acts on the block. The block slides over the trolley. What is the acceleration of the trolley?",
+    "answer": "D. \\( 0.60 \\, \\text{m/s}^2 \\)",
+    "paper": "1",
+    "choices": "A. \\( 5.0 \\, \\text{m/s}^2 \\)\\nB. \\( 1.0 \\, \\text{m/s}^2 \\)\\nC. \\( 0.75 \\, \\text{m/s}^2 \\)\\nD. \\( 0.60 \\, \\text{m/s}^2 \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1105,
+  "fields": {
+    "subject": 3,
+    "text": "A tennis ball is released from rest at a height \\( h \\) above the ground. At each bounce 50% of its kinetic energy is lost to its surroundings. What is the height reached by the ball after its second bounce?",
+    "answer": "A. \\( \\frac{h}{8} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{h}{8} \\)\\nB. \\( \\frac{h}{4} \\)\\nC. \\( \\frac{h}{2} \\)\\nD. zero",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1106,
+  "fields": {
+    "subject": 3,
+    "text": "A ball of mass 0.2 kg strikes a force sensor and sticks to it. Just before impact the ball is travelling horizontally at a speed of 4.0 m/s. The graph shows the variation with time \\( t \\) of the force \\( F \\) recorded by the sensor. What is the maximum force \\( F_{\\text{max}} \\) recorded by the sensor?",
+    "answer": "C. 20 N",
+    "paper": "1",
+    "choices": "A. 2 N\\nB. 4 N\\nC. 20 N\\nD. 40 N",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1107,
+  "fields": {
+    "subject": 3,
+    "text": "A stationary nucleus of polonium-210 undergoes alpha decay to form lead-206. The initial speed of the alpha particle is \\( v \\). What is the speed of the lead-206 nucleus?",
+    "answer": "C. \\( \\frac{4}{210}v \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{v}{4} \\)\\nB. \\( v \\)\\nC. \\( \\frac{4}{210}v \\)\\nD. \\( \\frac{206}{210}v \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1109,
+  "fields": {
+    "subject": 3,
+    "text": "A sealed container contains a mixture of oxygen and nitrogen gas. The ratio of the mass of an oxygen molecule to the mass of a nitrogen molecule is \\( \\frac{8}{7} \\). The ratio of the average kinetic energy of oxygen molecules to the average kinetic energy of nitrogen molecules is",
+    "answer": "A. 1",
+    "paper": "1",
+    "choices": "A. 1\\nB. \\( \\frac{7}{8} \\)\\nC. \\( \\frac{8}{7} \\)\\nD. dependent on the concentration of each gas",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1111,
+  "fields": {
+    "subject": 3,
+    "text": "In simple harmonic oscillations, which two quantities always have opposite directions?",
+    "answer": "D. Acceleration and displacement",
+    "paper": "1",
+    "choices": "A. Kinetic energy and potential energy\\nB. Velocity and acceleration\\nC. Velocity and displacement\\nD. Acceleration and displacement",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1112,
+  "fields": {
+    "subject": 3,
+    "text": "The graph shows the variation with distance \\( x \\) of the displacement of the particles of a medium in which a longitudinal wave is traveling from left to right. Displacements to the right of equilibrium positions are positive. Which point is at the center of a compression?",
+    "answer": "C. \\( x = 2 \\, \\text{m} \\)",
+    "paper": "1",
+    "choices": "A. \\( x = 0 \\)\\nB. \\( x = 1 \\, \\text{m} \\)\\nC. \\( x = 2 \\, \\text{m} \\)\\nD. \\( x = 3 \\, \\text{m} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1114,
+  "fields": {
+    "subject": 3,
+    "text": "The frequency of the first harmonic standing wave in a pipe that is open at both ends is 200 Hz. What is the frequency of the first harmonic in a pipe of the same length that is open at one end and closed at the other?",
+    "answer": "C. 100 Hz",
+    "paper": "1",
+    "choices": "A. 50 Hz\\nB. 75 Hz\\nC. 100 Hz\\nD. 400 Hz",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1115,
+  "fields": {
+    "subject": 3,
+    "text": "Positive charge is uniformly distributed on a semi-circular plastic rod. What is the direction of the electric field strength at the center of the circle?",
+    "answer": "C. Along the perpendicular bisector of the rod",
+    "paper": "1",
+    "choices": "A. Towards the center\\nB. Away from the center\\nC. Along the perpendicular bisector of the rod\\nD. There is no electric field at the center",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1116,
+  "fields": {
+    "subject": 3,
+    "text": "A wire has a variable cross-sectional area. The cross-sectional area at \\( Y \\) is double that at \\( X \\). At \\( X \\), the current in the wire is \\( I \\) and the electron drift speed is \\( v \\). What is the current and the electron drift speed at \\( Y \\)?",
+    "answer": "A. \\( I, \\frac{v}{2} \\)",
+    "paper": "1",
+    "choices": "A. \\( I, \\frac{v}{2} \\)\\nB. \\( I, v \\)\\nC. \\( 2I, v \\)\\nD. \\( 2I, \\frac{v}{2} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1117,
+  "fields": {
+    "subject": 3,
+    "text": "The diagram shows the path of a particle in a region of uniform magnetic field. The field is directed into the plane of the page. This particle could be",
+    "answer": "B. A beta particle",
+    "paper": "1",
+    "choices": "A. An alpha particle\\nB. A beta particle\\nC. A photon\\nD. A neutron",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1118,
+  "fields": {
+    "subject": 3,
+    "text": "A small ball of weight \\( W \\) is attached to a string and moves in a vertical circle of radius \\( R \\). What is the smallest kinetic energy of the ball at the top of the circle for the ball to maintain circular motion?",
+    "answer": "D. \\( \\frac{WR}{2} \\)",
+    "paper": "1",
+    "choices": "A. \\( WR \\)\\nB. \\( 2WR \\)\\nC. \\( 0.5WR \\)\\nD. \\( \\frac{WR}{2} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1119,
+  "fields": {
+    "subject": 3,
+    "text": "The center of the Earth is separated from the center of the Moon by a distance \\( D \\). Point \\( P \\) lies on a line joining the center of the Earth and the center of the Moon, a distance \\( X \\) from the center of the Earth. The gravitational field strength at \\( P \\) is zero. What is the ratio of the mass of the Moon to the mass of the Earth?",
+    "answer": "C. \\( \\frac{(D - X)^2}{X^2} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{D - X}{X} \\)\\nB. \\( \\frac{X}{D - X} \\)\\nC. \\( \\frac{(D - X)^2}{X^2} \\)\\nD. \\( \\frac{X^2}{(D - X)^2} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1120,
+  "fields": {
+    "subject": 3,
+    "text": "The binding energy per nucleon of \\( {}^{11}\\text{Be} \\) is 6 MeV. What is the energy required to separate the nucleons of this nucleus?",
+    "answer": "A. 24 MeV",
+    "paper": "1",
+    "choices": "A. 24 MeV\\nB. 42 MeV\\nC. 66 MeV\\nD. 90 MeV",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1121,
+  "fields": {
+    "subject": 3,
+    "text": "In the nuclear reaction \\( X + Y \\rightarrow Z + W \\), involving nuclides \\( X, Y, Z, \\) and \\( W \\), energy is released. Which is correct about the masses (M) and the binding energies (BE) of the nuclides?",
+    "answer": "B. \\( M_X + M_Y < M_Z + M_W, BE_X + BE_Y > BE_Z + BE_W \\)",
+    "paper": "1",
+    "choices": "A. \\( M_X + M_Y < M_Z + M_W, BE_X + BE_Y < BE_Z + BE_W \\)\\nB. \\( M_X + M_Y < M_Z + M_W, BE_X + BE_Y > BE_Z + BE_W \\)\\nC. \\( M_X + M_Y > M_Z + M_W, BE_X + BE_Y < BE_Z + BE_W \\)\\nD. \\( M_X + M_Y > M_Z + M_W, BE_X + BE_Y > BE_Z + BE_W \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1122,
+  "fields": {
+    "subject": 3,
+    "text": "The reaction \\( p^+ + n^0 \\rightarrow p^+ + \\pi^0 \\) does not occur because it violates the conservation law of",
+    "answer": "D. Strangeness",
+    "paper": "1",
+    "choices": "A. Electric charge\\nB. Baryon number\\nC. Lepton number\\nD. Strangeness",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1123,
+  "fields": {
+    "subject": 3,
+    "text": "The main role of a moderator in a nuclear fission reactor is to",
+    "answer": "A. Slow down neutrons",
+    "paper": "1",
+    "choices": "A. Slow down neutrons\\nB. Absorb neutrons\\nC. Reflect neutrons back to the reactor\\nD. Accelerate neutrons",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1124,
+  "fields": {
+    "subject": 3,
+    "text": "A room is at a constant temperature of 300 K. A hotplate in the room is at a temperature of 400 K and loses energy by radiation at a rate of \\( P \\). What is the rate of loss of energy from the hotplate when its temperature is 500 K?",
+    "answer": "A. \\( \\left( \\frac{5}{4} \\right)^4 P \\)",
+    "paper": "1",
+    "choices": "A. \\( \\left( \\frac{5}{4} \\right)^4 P \\)\\nB. \\( \\frac{5^4 + 4^4}{4^4 + 3^4} P \\)\\nC. \\( \\left( \\frac{5}{4} \\right) P \\)\\nD. \\( \\frac{5^4 - 4^4}{4^4 - 3^4} P \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1125,
+  "fields": {
+    "subject": 3,
+    "text": "Which of the following leads to a paradigm shift?",
+    "answer": "D. Atomic spectra",
+    "paper": "1",
+    "choices": "A. Multi-loop circuits\\nB. Standing waves\\nC. Total internal reflection\\nD. Atomic spectra",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1126,
+  "fields": {
+    "subject": 3,
+    "text": "A mass oscillates with simple harmonic motion (SHM) of amplitude \\( A \\). Its total energy is 16 J. What is the kinetic energy of the mass when its displacement is \\( \\frac{A}{2} \\)?",
+    "answer": "C. 12 J",
+    "paper": "1",
+    "choices": "A. 4 J\\nB. 8 J\\nC. 12 J\\nD. 16 J",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1127,
+  "fields": {
+    "subject": 3,
+    "text": "Blue light is incident on two narrow slits. Constructive interference takes place along the lines labeled 1 to 5. The blue light is now replaced by red light. What additional change is needed so that the lines of constructive interference remain in the same angular positions?",
+    "answer": "D. Move the slits further apart",
+    "paper": "1",
+    "choices": "A. Make the slits wider\\nB. Make the slits narrower\\nC. Move the slits closer together\\nD. Move the slits further apart",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1128,
+  "fields": {
+    "subject": 3,
+    "text": "Two points illuminated by monochromatic light are separated by a small distance. The light from the two sources passes through a small circular aperture and is detected on a screen far away. The images of the two light sources are just resolved. What changes to the wavelength and the size of the aperture will definitely allow the two images to be well-resolved?",
+    "answer": "C. Decrease, increase",
+    "paper": "1",
+    "choices": "A. Increase, increase\\nB. Increase, decrease\\nC. Decrease, increase\\nD. Decrease, decrease",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1129,
+  "fields": {
+    "subject": 3,
+    "text": "A train traveling in a straight line emits a sound of constant frequency \\( f \\). An observer at rest very close to the path of the train detects a sound of continuously decreasing frequency. The train is",
+    "answer": "D. Moving away from the observer at increasing speed",
+    "paper": "1",
+    "choices": "A. Approaching the observer at constant speed\\nB. Approaching the observer at increasing speed\\nC. Moving away from the observer at constant speed\\nD. Moving away from the observer at increasing speed",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1130,
+  "fields": {
+    "subject": 3,
+    "text": "A positive charge \\( Q \\) is deposited on the surface of a small sphere. The dotted lines represent equipotentials. A small positive point charge is moved from point \\( P \\) closer to the sphere along three different paths \\( X, Y, \\) and \\( Z \\). The work done along each path is \\( W_X, W_Y, \\) and \\( W_Z \\). What is a correct comparison of \\( W_X, W_Y, \\) and \\( W_Z \\)?",
+    "answer": "C. \\( W_X = W_Y = W_Z \\)",
+    "paper": "1",
+    "choices": "A. \\( W_Z > W_Y > W_X \\)\\nB. \\( W_X > W_Y = W_Z \\)\\nC. \\( W_X = W_Y = W_Z \\)\\nD. \\( W_Z = W_Y > W_X \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1131,
+  "fields": {
+    "subject": 3,
+    "text": "A satellite orbits Earth in a circular orbit of radius \\( r \\). The gravitational potential energy of the satellite is \\( U = -\\frac{GMm}{r} \\), where \\( G \\) is the gravitational constant, \\( M \\) is the mass of Earth, and \\( m \\) is the mass of the satellite. If the satellite's orbit is changed to a circular orbit of radius \\( 2r \\), what is the change in the satellite's total energy?",
+    "answer": "C. \\( \\frac{3GMm}{4r} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{GMm}{4r} \\)\\nB. \\( \\frac{GMm}{2r} \\)\\nC. \\( \\frac{3GMm}{4r} \\)\\nD. \\( \\frac{GMm}{r} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1132,
+  "fields": {
+    "subject": 3,
+    "text": "A Carnot engine operates between two reservoirs at temperatures \\( T_H \\) and \\( T_C \\). The engine absorbs \\( Q_H \\) heat from the hot reservoir and rejects \\( Q_C \\) heat to the cold reservoir. If the efficiency of the engine is \\( \\eta \\), what is the expression for the work done by the engine in one cycle?",
+    "answer": "A. \\( W = Q_H - Q_C \\)",
+    "paper": "1",
+    "choices": "A. \\( W = Q_H - Q_C \\)\\nB. \\( W = \\eta Q_H \\)\\nC. \\( W = \\frac{Q_H}{\\eta} \\)\\nD. \\( W = \\frac{Q_H(T_H - T_C)}{T_H} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1133,
+  "fields": {
+    "subject": 3,
+    "text": "A mass \\( m \\) attached to a spring with a spring constant \\( k \\) undergoes simple harmonic motion with amplitude \\( A \\). If the mass is increased to \\( 2m \\) while the spring constant remains the same, what is the new amplitude of the motion if the energy of the system remains constant?",
+    "answer": "B. \\( \\frac{A}{\\sqrt{2}} \\)",
+    "paper": "1",
+    "choices": "A. \\( A \\)\\nB. \\( \\frac{A}{\\sqrt{2}} \\)\\nC. \\( \\sqrt{2}A \\)\\nD. \\( 2A \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1134,
+  "fields": {
+    "subject": 3,
+    "text": "A charged particle of mass \\( m \\) and charge \\( q \\) moves with a velocity \\( v \\) perpendicular to a uniform magnetic field \\( B \\). If the radius of the circular path is \\( r \\), what is the work done by the magnetic field when the particle completes one full revolution?",
+    "answer": "D. Zero",
+    "paper": "1",
+    "choices": "A. \\( qBr \\)\\nB. \\( qBv \\)\\nC. \\( 2\\pi qBr \\)\\nD. Zero",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1135,
+  "fields": {
+    "subject": 3,
+    "text": "A thin spherical shell of radius \\( R \\) carries a uniform charge density \\( \\sigma \\). What is the electric field at a point inside the shell at a distance \\( r \\) from the center?",
+    "answer": "C. Zero",
+    "paper": "1",
+    "choices": "A. \\( \\frac{\\sigma}{\\epsilon_0} \\)\\nB. \\( \\frac{\\sigma R^2}{\\epsilon_0 r^2} \\)\\nC. Zero\\nD. \\( \\frac{\\sigma r}{\\epsilon_0 R} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1136,
+  "fields": {
+    "subject": 3,
+    "text": "Two identical resistors, each of resistance \\( R \\), are connected in series to a battery of emf \\( E \\) and negligible internal resistance. A third identical resistor is then connected in parallel with one of the resistors in the series combination. What is the ratio of the power dissipated in the circuit after and before the third resistor is connected?",
+    "answer": "C. 3:4",
+    "paper": "1",
+    "choices": "A. 1:2\\nB. 2:3\\nC. 3:4\\nD. 4:5",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1137,
+  "fields": {
+    "subject": 3,
+    "text": "A monochromatic light source of wavelength \\( \\lambda \\) is incident on a diffraction grating with \\( N \\) lines per meter. The angle of the first-order maximum is \\( \\theta \\). If the number of lines per meter is doubled, what is the new angle for the first-order maximum?",
+    "answer": "D. \\( \\sin^{-1} \\left( \\frac{\\sin \\theta}{2} \\right) \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{\\theta}{2} \\)\\nB. \\( \\theta \\)\\nC. \\( 2\\theta \\)\\nD. \\( \\sin^{-1} \\left( \\frac{\\sin \\theta}{2} \\right) \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1138,
+  "fields": {
+    "subject": 3,
+    "text": "A mass \\( m \\) is attached to a string of length \\( L \\) and swung in a vertical circle with a constant speed \\( v \\). What is the tension in the string at the top of the circle?",
+    "answer": "D. \\( \\frac{mv^2}{L} - mg \\)",
+    "paper": "1",
+    "choices": "A. \\( mg \\)\\nB. \\( \\frac{mv^2}{L} \\)\\nC. \\( mg + \\frac{mv^2}{L} \\)\\nD. \\( \\frac{mv^2}{L} - mg \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1139,
+  "fields": {
+    "subject": 3,
+    "text": "A solid sphere of radius \\( R \\) and mass \\( M \\) rolls without slipping down an inclined plane of angle \\( \\theta \\). What is the acceleration of the center of mass of the sphere?",
+    "answer": "B. \\( \\frac{5}{7} g \\sin \\theta \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{2}{3} g \\sin \\theta \\)\\nB. \\( \\frac{5}{7} g \\sin \\theta \\)\\nC. \\( g \\sin \\theta \\)\\nD. \\( \\frac{7}{5} g \\sin \\theta \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1140,
+  "fields": {
+    "subject": 3,
+    "text": "A parallel-plate capacitor with plate area \\( A \\) and separation \\( d \\) is connected to a battery of emf \\( V \\). The capacitor is filled with a dielectric material of dielectric constant \\( \\kappa \\). If the dielectric is slowly removed while the capacitor remains connected to the battery, what happens to the energy stored in the capacitor?",
+    "answer": "B. It decreases.",
+    "paper": "1",
+    "choices": "A. It increases.\\nB. It decreases.\\nC. It remains the same.\\nD. It becomes zero.",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1141,
+  "fields": {
+    "subject": 3,
+    "text": "A particle of mass \\( m \\) and charge \\( q \\) is initially at rest in a uniform electric field \\( E \\). What is the kinetic energy of the particle after it has moved a distance \\( d \\) in the field?",
+    "answer": "A. \\( qEd \\)",
+    "paper": "1",
+    "choices": "A. \\( qEd \\)\\nB. \\( \\frac{1}{2} qEd \\)\\nC. \\( \\frac{qEd}{m} \\)\\nD. \\( \\frac{q^2 E^2 d^2}{2m} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1142,
+  "fields": {
+    "subject": 3,
+    "text": "A gas undergoes an adiabatic process where \\( P \\propto V^{-\\gamma} \\). If the initial pressure and volume are \\( P_0 \\) and \\( V_0 \\) respectively, and the final volume is \\( 2V_0 \\), what is the final pressure?",
+    "answer": "A. \\( \\frac{P_0}{2^\\gamma} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{P_0}{2^\\gamma} \\)\\nB. \\( \\frac{P_0}{2} \\)\\nC. \\( 2P_0 \\)\\nD. \\( 2^\\gamma P_0 \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1143,
+  "fields": {
+    "subject": 3,
+    "text": "A particle moves in a potential well described by \\( U(x) = \\frac{1}{2} kx^2 \\). If the particle has total energy \\( E \\), what is the amplitude of the oscillation?",
+    "answer": "A. \\( \\sqrt{\\frac{E}{k}} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\sqrt{\\frac{E}{k}} \\)\\nB. \\( \\frac{E}{k} \\)\\nC. \\( \\frac{E}{\\sqrt{k}} \\)\\nD. \\( \\frac{k}{E} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1144,
+  "fields": {
+    "subject": 3,
+    "text": "A particle of mass \\( m \\) is confined in a one-dimensional infinite potential well of width \\( L \\). The energy levels of the particle are given by \\( E_n = \\frac{n^2 h^2}{8mL^2} \\), where \\( n \\) is a positive integer. What is the energy difference between the first excited state and the ground state?",
+    "answer": "B. \\( \\frac{3h^2}{8mL^2} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{h^2}{8mL^2} \\)\\nB. \\( \\frac{3h^2}{8mL^2} \\)\\nC. \\( \\frac{4h^2}{8mL^2} \\)\\nD. \\( \\frac{h^2}{2mL^2} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1145,
+  "fields": {
+    "subject": 3,
+    "text": "A proton is moving in a circular path in a uniform magnetic field. If the radius of the path is \\( r \\) and the speed of the proton is \\( v \\), what is the expression for the magnetic field \\( B \\)?",
+    "answer": "A. \\( \\frac{mv}{qr} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{mv}{qr} \\)\\nB. \\( \\frac{qv}{mr} \\)\\nC. \\( \\frac{mv^2}{qr} \\)\\nD. \\( \\frac{qv^2}{mr} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1146,
+  "fields": {
+    "subject": 3,
+    "text": "A heat engine operates between two reservoirs at temperatures \\( T_H \\) and \\( T_C \\). The engine performs \\( W \\) work per cycle and rejects \\( Q_C \\) heat to the cold reservoir. What is the efficiency of the engine?",
+    "answer": "D. \\( 1 - \\frac{T_C}{T_H} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{W}{Q_C} \\)\\nB. \\( \\frac{Q_C}{W} \\)\\nC. \\( 1 - \\frac{Q_C}{Q_H} \\)\\nD. \\( 1 - \\frac{T_C}{T_H} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1147,
+  "fields": {
+    "subject": 3,
+    "text": "A particle of mass \\( m \\) and charge \\( q \\) moves with a velocity \\( v \\) in a region where both electric field \\( E \\) and magnetic field \\( B \\) are present. If the electric and magnetic fields are perpendicular to each other and to the velocity of the particle, what is the net force acting on the particle?",
+    "answer": "C. \\( q(E + vB) \\)",
+    "paper": "1",
+    "choices": "A. \\( qE \\)\\nB. \\( qvB \\)\\nC. \\( q(E + vB) \\)\\nD. \\( q(E - vB) \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1148,
+  "fields": {
+    "subject": 3,
+    "text": "A parallel-plate capacitor is charged to a potential difference \\( V \\) and then disconnected from the battery. If the plate separation is doubled while the charge remains constant, what happens to the electric field between the plates?",
+    "answer": "B. It is halved.",
+    "paper": "1",
+    "choices": "A. It remains the same.\\nB. It is halved.\\nC. It is doubled.\\nD. It is quadrupled.",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1149,
+  "fields": {
+    "subject": 3,
+    "text": "A particle moves in a circular orbit under the influence of an inverse-square law force \\( F = \\frac{K}{r^2} \\). If the radius of the orbit is \\( r \\) and the speed of the particle is \\( v \\), what is the expression for the constant \\( K \\)?",
+    "answer": "A. \\( \\frac{mv^2}{r} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{mv^2}{r} \\)\\nB. \\( \\frac{mv^2 r}{2} \\)\\nC. \\( \\frac{mv^2 r^2}{2} \\)\\nD. \\( \\frac{mv^2}{2r} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1150,
+  "fields": {
+    "subject": 3,
+    "text": "A capacitor with capacitance \\( C \\) is charged to a potential difference \\( V \\). If the capacitor is then connected to a resistor \\( R \\) and allowed to discharge, what is the time constant of the circuit?",
+    "answer": "A. \\( RC \\)",
+    "paper": "1",
+    "choices": "A. \\( RC \\)\\nB. \\( \\frac{R}{C} \\)\\nC. \\( \\frac{C}{R} \\)\\nD. \\( \\frac{1}{RC} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1151,
+  "fields": {
+    "subject": 3,
+    "text": "A beam of light of wavelength \\( \\lambda \\) is incident on a double slit with slit separation \\( d \\). The interference pattern is observed on a screen at a distance \\( L \\) from the slits. What is the distance between adjacent bright fringes on the screen?",
+    "answer": "A. \\( \\frac{\\lambda L}{d} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{\\lambda L}{d} \\)\\nB. \\( \\frac{\\lambda d}{L} \\)\\nC. \\( \\frac{d \\lambda}{L} \\)\\nD. \\( \\frac{Ld}{\\lambda} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1152,
+  "fields": {
+    "subject": 3,
+    "text": "A particle of mass \\( m \\) and charge \\( q \\) is released from rest in a region with both electric field \\( E \\) and magnetic field \\( B \\). If the fields are perpendicular to each other and the particle is initially at rest, what will be the trajectory of the particle?",
+    "answer": "C. Helix",
+    "paper": "1",
+    "choices": "A. Straight line\\nB. Circle\\nC. Helix\\nD. Parabola",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1153,
+  "fields": {
+    "subject": 3,
+    "text": "A rod of length \\( L \\) and mass \\( M \\) is pivoted at one end and released from rest in a horizontal position. What is the angular velocity of the rod as it passes through the vertical position?",
+    "answer": "B. \\( \\sqrt{\\frac{3g}{L}} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\sqrt{\\frac{2g}{L}} \\)\\nB. \\( \\sqrt{\\frac{3g}{L}} \\)\\nC. \\( \\sqrt{\\frac{gL}{2}} \\)\\nD. \\( \\sqrt{\\frac{3gL}{2}} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1155,
+  "fields": {
+    "subject": 3,
+    "text": "A solid sphere of radius \\( R \\) and mass \\( M \\) has a moment of inertia \\( I \\) about an axis through its center. If the sphere is melted and reshaped into a thin cylindrical disk of the same mass and radius \\( R \\), what is the moment of inertia of the disk about its central axis?",
+    "answer": "B. \\( \\frac{1}{2}MR^2 \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{2}{5}MR^2 \\)\\nB. \\( \\frac{1}{2}MR^2 \\)\\nC. \\( \\frac{5}{2}MR^2 \\)\\nD. \\( \\frac{1}{4}MR^2 \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1156,
+  "fields": {
+    "subject": 3,
+    "text": "A proton and an alpha particle are accelerated through the same potential difference. What is the ratio of their de Broglie wavelengths?",
+    "answer": "C. \\( \\sqrt{2}:1 \\)",
+    "paper": "1",
+    "choices": "A. 2:1\\nB. \\( 1:\\sqrt{2} \\)\\nC. \\( \\sqrt{2}:1 \\)\\nD. 1:2",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1157,
+  "fields": {
+    "subject": 3,
+    "text": "A gas expands adiabatically from a volume \\( V_1 \\) to \\( V_2 \\). If the initial temperature is \\( T_1 \\) and the final temperature is \\( T_2 \\), what is the ratio \\( \\frac{T_2}{T_1} \\) for an ideal diatomic gas?",
+    "answer": "A. \\( \\left( \\frac{V_1}{V_2} \\right)^{\\gamma-1} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\left( \\frac{V_1}{V_2} \\right)^{\\gamma-1} \\)\\nB. \\( \\left( \\frac{V_1}{V_2} \\right)^{1-\\gamma} \\)\\nC. \\( \\left( \\frac{V_1}{V_2} \\right)^\\gamma \\)\\nD. \\( \\left( \\frac{V_1}{V_2} \\right)^{\\frac{1}{\\gamma-1}} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1158,
+  "fields": {
+    "subject": 3,
+    "text": "A particle is in a one-dimensional box of length \\( L \\). The probability density of finding the particle at position \\( x \\) is given by \\( |\\psi(x)|^2 \\). What is the probability of finding the particle between \\( x = 0 \\) and \\( x = \\frac{L}{2} \\)?",
+    "answer": "A. \\( \\frac{1}{2} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{1}{2} \\)\\nB. \\( \\frac{1}{4} \\)\\nC. \\( \\frac{2}{3} \\)\\nD. \\( \\frac{1}{3} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1159,
+  "fields": {
+    "subject": 3,
+    "text": "A cylindrical rod of thermal conductivity \\( k \\), length \\( L \\), and cross-sectional area \\( A \\) is used to conduct heat between two reservoirs at temperatures \\( T_1 \\) and \\( T_2 \\). What is the rate of heat conduction through the rod?",
+    "answer": "A. \\( \\frac{kA(T_1 - T_2)}{L} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{kA(T_1 - T_2)}{L} \\)\\nB. \\( \\frac{kA(T_1 + T_2)}{L} \\)\\nC. \\( \\frac{kL(T_1 - T_2)}{A} \\)\\nD. \\( \\frac{kL(T_1 + T_2)}{A} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1160,
+  "fields": {
+    "subject": 3,
+    "text": "A mass \\( m \\) attached to a spring of spring constant \\( k \\) is displaced from its equilibrium position and released. If the maximum speed of the mass is \\( v_{\\text{max}} \\), what is the amplitude of the motion?",
+    "answer": "B. \\( \\frac{v_{\\text{max}}}{\\sqrt{\\frac{k}{m}}} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{v_{\\text{max}}^2}{k} \\)\\nB. \\( \\frac{v_{\\text{max}}}{\\sqrt{\\frac{k}{m}}} \\)\\nC. \\( \\frac{v_{\\text{max}}}{k} \\)\\nD. \\( \\frac{k}{v_{\\text{max}}} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1161,
+  "fields": {
+    "subject": 3,
+    "text": "A mass \\( m \\) is attached to a string of length \\( L \\) and swings in a vertical circle. If the speed of the mass at the bottom of the swing is \\( v \\), what is the tension in the string at the bottom of the swing?",
+    "answer": "B. \\( \\frac{mv^2}{L} + mg \\)",
+    "paper": "1",
+    "choices": "A. \\( mg \\)\\nB. \\( \\frac{mv^2}{L} + mg \\)\\nC. \\( \\frac{mv^2}{L} \\)\\nD. \\( mg - \\frac{mv^2}{L} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1162,
+  "fields": {
+    "subject": 3,
+    "text": "A gas undergoes an isothermal expansion from an initial volume \\( V_i \\) to a final volume \\( 2V_i \\). If the initial pressure is \\( P_i \\), what is the final pressure?",
+    "answer": "A. \\( \\frac{P_i}{2} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{P_i}{2} \\)\\nB. \\( 2P_i \\)\\nC. \\( P_i \\)\\nD. \\( \\frac{P_i}{4} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1163,
+  "fields": {
+    "subject": 3,
+    "text": "A beam of light of wavelength \\( \\lambda \\) is incident on a single slit of width \\( a \\). The diffraction pattern is observed on a screen at a distance \\( L \\). What is the width of the central maximum?",
+    "answer": "A. \\( \\frac{2\\lambda L}{a} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{2\\lambda L}{a} \\)\\nB. \\( \\frac{\\lambda L}{a} \\)\\nC. \\( \\frac{\\lambda a}{L} \\)\\nD. \\( \\frac{a}{2\\lambda L} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1164,
+  "fields": {
+    "subject": 3,
+    "text": "A particle of mass \\( m \\) and charge \\( q \\) moves with a velocity \\( v \\) perpendicular to a uniform magnetic field \\( B \\). If the particle describes a circular path of radius \\( r \\), what is the angular frequency of the motion?",
+    "answer": "A. \\( \\frac{qB}{m} \\)",
+    "paper": "1",
+    "choices": "A. \\( \\frac{qB}{m} \\)\\nB. \\( \\frac{mB}{q} \\)\\nC. \\( \\frac{qv}{r} \\)\\nD. \\( \\frac{mv}{r} \\)",
+    "topic": ""
+  }
+}
+]

@@ -1,0 +1,30 @@
+[
+{
+  "model": "main.subject",
+  "pk": 1,
+  "fields": {
+    "name": "English"
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 2,
+  "fields": {
+    "name": "History"
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 3,
+  "fields": {
+    "name": "Physics"
+  }
+},
+{
+  "model": "main.subject",
+  "pk": 4,
+  "fields": {
+    "name": "Math"
+  }
+}
+]

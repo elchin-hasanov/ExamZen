@@ -1,0 +1,2354 @@
+[
+{
+  "model": "main.question",
+  "pk": 21,
+  "fields": {
+    "subject": 1,
+    "text": "Referring to two works you have studied, analyze how the authors use dreams or fantasies to reveal deeper truths about their characters.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 22,
+  "fields": {
+    "subject": 1,
+    "text": "With reference to two works you have studied, discuss the role of setting in shaping the protagonists� identities and actions.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 23,
+  "fields": {
+    "subject": 1,
+    "text": "Referring to two works you have studied, examine how the authors address the theme of memory and its impact on the present.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 24,
+  "fields": {
+    "subject": 1,
+    "text": "With regard to two works you have studied, explore the portrayal of power dynamics and their effects on the characters� relationships.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 25,
+  "fields": {
+    "subject": 1,
+    "text": "Referring to two works you have studied, analyze how the authors depict the struggle for individuality within conformist societies.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 26,
+  "fields": {
+    "subject": 1,
+    "text": "With reference to two works you have studied, discuss how symbolism is used to convey complex themes and ideas.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 27,
+  "fields": {
+    "subject": 1,
+    "text": "Referring to two works you have studied, compare and contrast the narrative techniques employed to create suspense and tension.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 28,
+  "fields": {
+    "subject": 1,
+    "text": "With regard to two works you have studied, explore how the authors address the theme of exile and its psychological impact on characters.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 29,
+  "fields": {
+    "subject": 1,
+    "text": "Referring to two works you have studied, discuss how the authors use irony to critique societal norms and values.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 30,
+  "fields": {
+    "subject": 1,
+    "text": "With reference to two works you have studied, examine the representation of gender roles and their influence on the characters� destinies.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 31,
+  "fields": {
+    "subject": 1,
+    "text": "Referring to two works you have studied, analyze how the authors use language and dialogue to reveal social and cultural contexts.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 32,
+  "fields": {
+    "subject": 1,
+    "text": "With regard to two works you have studied, explore the theme of redemption and the journeys the characters undertake to achieve it.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 33,
+  "fields": {
+    "subject": 1,
+    "text": "Referring to two works you have studied, discuss how the authors portray the conflict between tradition and modernity.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 34,
+  "fields": {
+    "subject": 1,
+    "text": "With reference to two works you have studied, examine how the authors use the motif of journeys to symbolize personal growth and transformation.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 35,
+  "fields": {
+    "subject": 1,
+    "text": "Referring to two works you have studied, analyze how the authors address the theme of isolation and its effects on the human psyche.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 36,
+  "fields": {
+    "subject": 1,
+    "text": "With regard to two works you have studied, explore the depiction of nature and its symbolic significance in the narrative.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 37,
+  "fields": {
+    "subject": 1,
+    "text": "Referring to two works you have studied, discuss how the authors use flashbacks to enrich the narrative and deepen the readers� understanding of characters.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 38,
+  "fields": {
+    "subject": 1,
+    "text": "With reference to two works you have studied, examine the role of secondary characters in highlighting the main themes of the works.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 39,
+  "fields": {
+    "subject": 1,
+    "text": "Referring to two works you have studied, analyze how the authors depict the consequences of ambition and the pursuit of power.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 40,
+  "fields": {
+    "subject": 1,
+    "text": "With regard to two works you have studied, explore how the authors use contrasting settings to enhance the thematic development of the narratives.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 41,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the impact of population change on two societies, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Society and economy (750�1400)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 42,
+  "fields": {
+    "subject": 2,
+    "text": "Compare and contrast the impact of developments in science and technology on two societies, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Society and economy (750�1400)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 43,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the impact of population change on two societies, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Society and economy (750�1400)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 44,
+  "fields": {
+    "subject": 2,
+    "text": "Discuss the social and economic influence of religious institutions on two societies, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Society and economy (750�1400)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 45,
+  "fields": {
+    "subject": 2,
+    "text": "Changes in travel and transportation had little impact. Discuss, with reference to two societies.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Society and economy (750�1400)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 46,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the reasons for the spread of religion in two societies, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Society and economy (750�1400)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 47,
+  "fields": {
+    "subject": 2,
+    "text": "Examine changes in social structures and systems in two societies.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Society and economy (750�1400)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 48,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the reasons for the spread of religion in two societies, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Society and economy (750�1400)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 49,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the impact of famine and disease on two societies, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Society and economy (750�1400)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 50,
+  "fields": {
+    "subject": 2,
+    "text": "Trade was the main factor in enabling the transmission of ideas and culture. Discuss with reference to two societies.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Society and economy (750�1400)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 51,
+  "fields": {
+    "subject": 2,
+    "text": "The most important causes of wars in the period 750�1500 were political. With reference to two wars, to what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of wars (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 52,
+  "fields": {
+    "subject": 2,
+    "text": "Wars in the period 750�1500 resulted in significant boundary and dynastic changes. Discuss with reference to two wars, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of wars (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 53,
+  "fields": {
+    "subject": 2,
+    "text": "Religion was the most important cause of wars in the period 750�1500. With reference to two wars, to what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of wars (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 54,
+  "fields": {
+    "subject": 2,
+    "text": "Wars in the period 750�1500 resulted in significant boundary and dynastic changes. Discuss with reference to two wars, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of wars (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 55,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the significance of leaders to the outcomes of two wars in the period 750�1500, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of wars (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 56,
+  "fields": {
+    "subject": 2,
+    "text": "With reference to two wars in the period 750�1500, to what extent was economic change the most significant effect of war?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of wars (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 57,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the significance of leaders to the outcomes of two wars in the period 750�1500, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of wars (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 58,
+  "fields": {
+    "subject": 2,
+    "text": "Wars had limited long-term political impact. With reference to two wars in the period 750�1500, to what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of wars (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 59,
+  "fields": {
+    "subject": 2,
+    "text": "Political rivalry was the main cause of war between 750 and 1500. Discuss with reference to two wars.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of wars (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 60,
+  "fields": {
+    "subject": 2,
+    "text": "The impact of war upon the role of women was mainly positive. With reference to two wars, to what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of wars (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 61,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the methods of government and administration of two rulers, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Dynasties and rulers (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 62,
+  "fields": {
+    "subject": 2,
+    "text": "With reference to two rulers, compare and contrast the methods used to address external challenges to their power.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Dynasties and rulers (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 63,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the administration and interpretation of law by two rulers, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Dynasties and rulers (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 64,
+  "fields": {
+    "subject": 2,
+    "text": "With reference to two rulers, compare and contrast the methods used to address external challenges to their power.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Dynasties and rulers (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 65,
+  "fields": {
+    "subject": 2,
+    "text": "Compare and contrast the methods used by two rulers to maintain their rule.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Dynasties and rulers (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 66,
+  "fields": {
+    "subject": 2,
+    "text": "Effective government depended on the nobility and the elite. Discuss with reference to two rulers, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Dynasties and rulers (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 67,
+  "fields": {
+    "subject": 2,
+    "text": "Compare and contrast the methods used by two rulers to maintain their rule.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Dynasties and rulers (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 68,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the effects of religious and secular law on the administration of two states, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Dynasties and rulers (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 69,
+  "fields": {
+    "subject": 2,
+    "text": "The use of force was the most important method used to maintain power. Discuss, with reference to two rulers, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Dynasties and rulers (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 70,
+  "fields": {
+    "subject": 2,
+    "text": "Their successes outweighed their failures. Discuss with reference to two rulers.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Dynasties and rulers (750�1500)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 71,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the importance of population expansion and movements as causes of change in two societies, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Societies in transition (1400�1700)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 72,
+  "fields": {
+    "subject": 2,
+    "text": "Discuss the social impact of scientific and technological developments on two societies.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Societies in transition (1400�1700)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 73,
+  "fields": {
+    "subject": 2,
+    "text": "Compare and contrast the treatment of minority or indigenous peoples in two societies.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Societies in transition (1400�1700)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 74,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the significance of two key intellectual/scientific figures, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Societies in transition (1400�1700)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 75,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the impact of merchants and travellers on developments in trade during the period 1400�1700.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Societies in transition (1400�1700)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 76,
+  "fields": {
+    "subject": 2,
+    "text": "Religious discrimination and persecution were the main cause of religious change. Discuss.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Societies in transition (1400�1700)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 77,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the impact of scientific and technological developments on two societies, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Societies in transition (1400�1700)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 78,
+  "fields": {
+    "subject": 2,
+    "text": "Religious discrimination and persecution were the main cause of religious change. Discuss.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Societies in transition (1400�1700)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 79,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the significance of intellectual movements on two societies.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Societies in transition (1400�1700)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 80,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the relationship between religion and the state in two societies, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Societies in transition (1400�1700)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 81,
+  "fields": {
+    "subject": 2,
+    "text": "The most important reasons for the territorial expansion of Early Modern states were religious. With reference to two states, to what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Early Modern states (1450�1789)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 82,
+  "fields": {
+    "subject": 2,
+    "text": "With reference to one Early Modern state, discuss the challenges to its power and how successfully they were overcome.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Early Modern states (1450�1789)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 83,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the impact of territorial expansion on the political organization of two Early Modern states.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Early Modern states (1450�1789)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 84,
+  "fields": {
+    "subject": 2,
+    "text": "With reference to one Early Modern state, discuss the challenges to its power and how successfully they were overcome.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Early Modern states (1450�1789)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 85,
+  "fields": {
+    "subject": 2,
+    "text": "Rulers rarely achieved their ambitions. Discuss with reference to two rulers, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Early Modern states (1450�1789)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 86,
+  "fields": {
+    "subject": 2,
+    "text": "Issues of succession were the main cause of internal conflict. With reference to two states, to what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Early Modern states (1450�1789)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 87,
+  "fields": {
+    "subject": 2,
+    "text": "Rulers rarely achieved their ambitions. Discuss with reference to two rulers, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Early Modern states (1450�1789)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 88,
+  "fields": {
+    "subject": 2,
+    "text": "Compare and contrast the treatment of internal opposition in two states.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Early Modern states (1450�1789)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 89,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the impact of ideology on the nature of rule in two Early Modern states.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Early Modern states (1450�1789)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 90,
+  "fields": {
+    "subject": 2,
+    "text": "With reference to two states, evaluate the success of the methods used to overcome challenges to power.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Early Modern states (1450�1789)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 91,
+  "fields": {
+    "subject": 2,
+    "text": "The most important causes of Early Modern wars were political. With reference to two wars, to what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of Early Modern wars (1500�1750)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 92,
+  "fields": {
+    "subject": 2,
+    "text": "The most important effects of Early Modern wars were economic. Discuss with reference to two wars, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of Early Modern wars (1500�1750)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 93,
+  "fields": {
+    "subject": 2,
+    "text": "The most important causes of war were religious. With reference to two Early Modern wars, to what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of Early Modern wars (1500�1750)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 94,
+  "fields": {
+    "subject": 2,
+    "text": "The most important effects of Early Modern wars were social. Discuss with reference to two wars, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of Early Modern wars (1500�1750)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 95,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the impact of technological developments on the practice of war.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of Early Modern wars (1500�1750)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 96,
+  "fields": {
+    "subject": 2,
+    "text": "Discuss the successes and failures of peacemaking after two wars.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of Early Modern wars (1500�1750)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 97,
+  "fields": {
+    "subject": 2,
+    "text": "To what extent was foreign involvement the main factor which determined the outcome of two wars?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of Early Modern wars (1500�1750)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 98,
+  "fields": {
+    "subject": 2,
+    "text": "Discuss the successes and failures of peacemaking after two wars.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of Early Modern wars (1500�1750)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 99,
+  "fields": {
+    "subject": 2,
+    "text": "Compare and contrast the causes of two Early Modern wars, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of Early Modern wars (1500�1750)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 100,
+  "fields": {
+    "subject": 2,
+    "text": "To what extent do you agree that demographic changes and population movements were the main effects of two Early Modern wars?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of Early Modern wars (1500�1750)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 101,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the significance of developments in energy and power to industrialization in two countries.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Origins, development and impact of industrialization (1750�2005)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 102,
+  "fields": {
+    "subject": 2,
+    "text": "Opposition to industrialization was limited. Discuss with reference to two countries, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Origins, development and impact of industrialization (1750�2005)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 103,
+  "fields": {
+    "subject": 2,
+    "text": "The exploitation of natural resources was the most significant contributor to industrialization. Discuss with reference to two countries.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Origins, development and impact of industrialization (1750�2005)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 104,
+  "fields": {
+    "subject": 2,
+    "text": "Opposition to industrialization was limited. Discuss with reference to two countries, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Origins, development and impact of industrialization (1750�2005)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 105,
+  "fields": {
+    "subject": 2,
+    "text": "To what extent was political stability the main factor which enabled industrialization in two countries?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Origins, development and impact of industrialization (1750�2005)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 106,
+  "fields": {
+    "subject": 2,
+    "text": "Developments in transportation were key to industrialization. Discuss with reference to two countries, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Origins, development and impact of industrialization (1750�2005)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 107,
+  "fields": {
+    "subject": 2,
+    "text": "To what extent was political stability the main factor which enabled industrialization in two countries?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Origins, development and impact of industrialization (1750�2005)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 108,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the impact of developments in energy and power on industrialization in two countries, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Origins, development and impact of industrialization (1750�2005)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 109,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the significance of technological developments to the origins of industrialization in two countries.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Origins, development and impact of industrialization (1750�2005)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 110,
+  "fields": {
+    "subject": 2,
+    "text": "The impact of industrialization on labour conditions was mainly positive. Discuss with reference to two countries.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Origins, development and impact of industrialization (1750�2005)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 111,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the role of war as a cause for the rise of two independence movements, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Independence movements (1800�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 112,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the factors, excluding leadership, that led to the success of one independence movement.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Independence movements (1800�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 113,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the importance of external factors in the growth of two independence movements, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Independence movements (1800�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 114,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the factors, excluding leadership, that led to the success of one independence movement.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Independence movements (1800�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 115,
+  "fields": {
+    "subject": 2,
+    "text": "Discuss the importance of race to the origins and rise of independence movements in two states.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Independence movements (1800�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 116,
+  "fields": {
+    "subject": 2,
+    "text": "Discuss the responses to challenges faced in the first ten years of one independent state.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Independence movements (1800�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 117,
+  "fields": {
+    "subject": 2,
+    "text": "Discuss the importance of race to the origins and rise of independence movements in two states.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Independence movements (1800�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 118,
+  "fields": {
+    "subject": 2,
+    "text": "Violent methods were essential to the achievement of independence. Discuss with reference to two states.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Independence movements (1800�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 119,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the importance of war to the rise of independence movements in two states, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Independence movements (1800�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 120,
+  "fields": {
+    "subject": 2,
+    "text": "Compare and contrast the methods used in achieving independence in two states.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Independence movements (1800�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 121,
+  "fields": {
+    "subject": 2,
+    "text": "Ideology was the most important influence on the evolution of democratic states. Discuss with reference to two states, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Emergence and development of democratic states (1848�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 122,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the impact of changing social policies in two states, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Emergence and development of democratic states (1848�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 123,
+  "fields": {
+    "subject": 2,
+    "text": "Ideology was the most important influence on the evolution of democratic states. Discuss with reference to two states, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Emergence and development of democratic states (1848�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 124,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the impact of changing social policies in two states, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Emergence and development of democratic states (1848�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 125,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the significance of leaders in the emergence of two democratic states, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Emergence and development of democratic states (1848�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 126,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the impact of democracy on the culture of two democratic states.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Emergence and development of democratic states (1848�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 127,
+  "fields": {
+    "subject": 2,
+    "text": "Compare and contrast the role of leaders in the emergence of two democratic states.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Emergence and development of democratic states (1848�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 128,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the impact of domestic crises on the development of two democratic states, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Emergence and development of democratic states (1848�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 129,
+  "fields": {
+    "subject": 2,
+    "text": "Ideology was the most significant factor in the development of democratic states. Discuss with reference to two states, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Emergence and development of democratic states (1848�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 130,
+  "fields": {
+    "subject": 2,
+    "text": "To what extent were the aims of social policies achieved in two democratic states?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Emergence and development of democratic states (1848�2000)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 131,
+  "fields": {
+    "subject": 2,
+    "text": "The treatment of opposition was the most important factor in the maintenance of power. Discuss with reference to two authoritarian states, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Authoritarian states (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 132,
+  "fields": {
+    "subject": 2,
+    "text": "Full authoritarian control could not be achieved. With reference to two states, to what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Authoritarian states (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 133,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the impact of foreign policy on the maintenance of power in two authoritarian states, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Authoritarian states (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 134,
+  "fields": {
+    "subject": 2,
+    "text": "Full authoritarian control could not be achieved. With reference to two states, to what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Authoritarian states (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 135,
+  "fields": {
+    "subject": 2,
+    "text": "Weak political systems were the most significant factor in the emergence of authoritarian states. Discuss with reference to two states.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Authoritarian states (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 136,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the impact of social policies in two authoritarian states.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Authoritarian states (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 137,
+  "fields": {
+    "subject": 2,
+    "text": "Weak political systems were the most significant factor in the emergence of authoritarian states. Discuss with reference to two states.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Authoritarian states (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 138,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the impact of social and cultural policies in one authoritarian state.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Authoritarian states (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 139,
+  "fields": {
+    "subject": 2,
+    "text": "To what extent did the weaknesses of political systems lead to the emergence of authoritarian states in two countries, each chosen from a different region?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Authoritarian states (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 140,
+  "fields": {
+    "subject": 2,
+    "text": "To what extent was foreign policy the most important factor in the maintenance of power in two authoritarian states?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Authoritarian states (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 141,
+  "fields": {
+    "subject": 2,
+    "text": "The most important causes of war were economic. With reference to two wars, to what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of 20th century wars"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 142,
+  "fields": {
+    "subject": 2,
+    "text": "Changes to the role and status of women as a result of war were limited. Discuss with reference to two wars, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of 20th century wars"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 143,
+  "fields": {
+    "subject": 2,
+    "text": "The most important causes of wars were political. With reference to two wars, to what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of 20th century wars"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 144,
+  "fields": {
+    "subject": 2,
+    "text": "Changes to the role and status of women as a result of war were limited. Discuss with reference to two wars, each from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of 20th century wars"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 145,
+  "fields": {
+    "subject": 2,
+    "text": "Compare and contrast the long-term causes of two wars.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of 20th century wars"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 146,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the impact of foreign powers on the outcome of two civil wars.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of 20th century wars"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 147,
+  "fields": {
+    "subject": 2,
+    "text": "Compare and contrast the long-term causes of two wars.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of 20th century wars"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 148,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the impact of guerrilla warfare on the outcome of two wars.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of 20th century wars"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 149,
+  "fields": {
+    "subject": 2,
+    "text": "Compare and contrast the short-term causes of two wars.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of 20th century wars"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 150,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the short-term political impact of two wars, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "Causes and effects of 20th century wars"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 151,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the factors which led to detente between the US and USSR between 1971 and 1979.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "The Cold War: Superpower tensions and rivalries (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 152,
+  "fields": {
+    "subject": 2,
+    "text": "Discuss the impact of two Cold War crises on superpower rivalry.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "The Cold War: Superpower tensions and rivalries (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 153,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the factors which led to detente between the US and USSR between 1971 and 1979.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "The Cold War: Superpower tensions and rivalries (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 154,
+  "fields": {
+    "subject": 2,
+    "text": "Discuss the impact of two Cold War crises on superpower rivalry.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "The Cold War: Superpower tensions and rivalries (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 155,
+  "fields": {
+    "subject": 2,
+    "text": "Fear, rather than aggression, was the main cause of superpower rivalry between 1943 and 1949. To what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "The Cold War: Superpower tensions and rivalries (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 156,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the economic impact of the Cold War on two countries, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "The Cold War: Superpower tensions and rivalries (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 157,
+  "fields": {
+    "subject": 2,
+    "text": "Fear, rather than aggression, was the main cause of superpower rivalry between 1943 and 1949. To what extent do you agree with this statement?",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "The Cold War: Superpower tensions and rivalries (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 158,
+  "fields": {
+    "subject": 2,
+    "text": "Examine the economic impact of the Cold War on two countries, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "The Cold War: Superpower tensions and rivalries (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 159,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the cultural impact of the Cold War on two countries, each chosen from a different region.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "The Cold War: Superpower tensions and rivalries (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 160,
+  "fields": {
+    "subject": 2,
+    "text": "Evaluate the impact of two crises, each chosen from a different region, on the development of the Cold War.",
+    "answer": null,
+    "paper": "2",
+    "choices": null,
+    "topic": "The Cold War: Superpower tensions and rivalries (20th century)"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 452,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Prove by induction that \\(1 + 2 + \\ldots + n = \\frac{n(n+1)}{2}\\) for all positive integers \\(n\\). \n        (a) Prove the base case. [1] \n        (b) Prove the inductive step. [4]\n        ",
+    "answer": "\n        (a) \n        - For \\(n = 1\\), the left-hand side is \\(1\\). \n        - The right-hand side is \\(\\frac{1(1+1)}{2} = 1\\). \n        - Both sides are equal, so the base case holds. \n        - (1 mark) \n        \n        (b) \n        - Assume the statement is true for \\(n = k\\), i.e., \\(1 + 2 + \\ldots + k = \\frac{k(k+1)}{2}\\). \n        - Consider \\(n = k+1\\): \n        - \\(1 + 2 + \\ldots + k + (k+1) = \\frac{k(k+1)}{2} + (k+1)\\) \n        - Factor out \\((k+1)\\): \n        - \\(\\frac{k(k+1)}{2} + (k+1) = (k+1) \\left( \\frac{k}{2} + 1 \\right)\\) \n        - Simplify: \n        - \\((k+1) \\left( \\frac{k}{2} + 1 \\right) = (k+1) \\left( \\frac{k+2}{2} \\right)\\) \n        - \\((k+1) \\left( \\frac{k+2}{2} \\right) = \\frac{(k+1)(k+2)}{2}\\) \n        - This is the right-hand side for \\(n = k+1\\), so the inductive step holds. \n        - (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 453,
+  "fields": {
+    "subject": 4,
+    "text": "\n        A company sells a product at a price of \\(p\\) dollars per unit and sells \\(q\\) units. The revenue function is \\(R = pq\\). The company estimates that the demand function is \\(q = 1000 - 50p\\). \n        (a) Find the revenue function \\(R(p)\\) in terms of \\(p\\). [2] \n        (b) Find the price \\(p\\) that maximizes revenue. [4]\n        ",
+    "answer": "\n        (a) \n        - Substitute \\(q = 1000 - 50p\\) into \\(R = pq\\). \n        - \\(R(p) = p(1000 - 50p)\\) \n        - \\(R(p) = 1000p - 50p^2\\) \n        - (2 marks) \n        \n        (b) \n        - Differentiate \\(R(p)\\) and set to zero to find the critical points. \n        - \\(R'(p) = 1000 - 100p\\) \n        - Set \\(R'(p) = 0\\) to find the critical points. \n        - \\(1000 - 100p = 0\\) \n        - \\(p = 10\\) \n        - Check the second derivative to confirm it is a maximum. \n        - \\(R''(p) = -100\\), which is less than 0, confirming a maximum. \n        - (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 454,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the function \\( f(x) = 2x^3 - 5x^2 + 3x - 1 \\).\n\n        (a) Find the first and second derivatives of \\( f(x) \\). [4]\n\n        (b) Determine the stationary points of \\( f(x) \\) and classify them as maxima, minima, or points of inflection. [6]\n\n        (c) Sketch the graph of \\( f(x) \\), clearly indicating the stationary points and their nature. [4]\n        ",
+    "answer": "\n        (a) \n        \\( f'(x) = 6x^2 - 10x + 3 \\)\n        \\( f''(x) = 12x - 10 \\)\n        (2 marks for each derivative)\n\n        (b) Solve \\( f'(x) = 0 \\) to find stationary points.\n        \\( 6x^2 - 10x + 3 = 0 \\)\n        \\( x = \\frac{5 \\pm \\sqrt{7}}{6} \\)\n        (2 marks)\n        Determine nature using \\( f''(x) \\).\n        (2 marks for classification)\n\n        (c) Sketch with correct stationary points and curvature.\n        (2 marks for points, 2 marks for sketch)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 455,
+  "fields": {
+    "subject": 4,
+    "text": "\n        A geometric sequence has first term \\( a = 3 \\) and common ratio \\( r = \\frac{1}{2} \\).\n\n        (a) Find the 6th term of the sequence. [2]\n\n        (b) Calculate the sum of the first 10 terms. [4]\n\n        (c) Find the sum to infinity of the sequence. [2]\n        ",
+    "answer": "\n        (a) \n        \\( a_6 = 3 \\left( \\frac{1}{2} \\right)^5 = \\frac{3}{32} \\)\n        (2 marks)\n\n        (b) \n        \\( S_{10} = 3 \\left( \\frac{1 - \\left( \\frac{1}{2} \\right)^{10}}{1 - \\frac{1}{2}} \\right) = 6 \\left( 1 - \\frac{1}{1024} \\right) \\approx 5.994 \\)\n        (4 marks)\n\n        (c) \n        \\( S_{\\infty} = \\frac{3}{1 - \\frac{1}{2}} = 6 \\)\n        (2 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 456,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the integral \\( \\int_{1}^{4} (2x^2 - 3x + 1) \\, dx \\).\n\n        (a) Evaluate the integral. [4]\n\n        (b) Use the result from (a) to find the average value of the function \\( 2x^2 - 3x + 1 \\) on the interval [1, 4]. [2]\n        ",
+    "answer": "\n        (a) \n        \\( \\int_{1}^{4} (2x^2 - 3x + 1) \\, dx = \\left[ \\frac{2x^3}{3} - \\frac{3x^2}{2} + x \\right]_{1}^{4} = \\left( \\frac{128}{3} - 24 + 4 \\right) - \\left( \\frac{2}{3} - \\frac{3}{2} + 1 \\right) \\approx 25.5 \\)\n        (4 marks)\n\n        (b) \n        Average value \\( = \\frac{1}{4 - 1} \\int_{1}^{4} (2x^2 - 3x + 1) \\, dx = \\frac{25.5}{3} = 8.5 \\)\n        (2 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 457,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Solve the differential equation \\( \\frac{dy}{dx} = \\frac{y}{2x} \\) given that \\( y(1) = 2 \\).\n\n        (a) Separate the variables and integrate both sides. [4]\n\n        (b) Find the particular solution using the initial condition. [2]\n\n        (c) Determine the value of \\( y \\) when \\( x = 3 \\). [2]\n        ",
+    "answer": "\n        (a) \n        \\( \\frac{1}{y} \\, dy = \\frac{1}{2x} \\, dx \\)\n        \\( \\int \\frac{1}{y} \\, dy = \\int \\frac{1}{2x} \\, dx \\)\n        \\( \\ln |y| = \\frac{1}{2} \\ln |x| + C \\)\n        (2 marks for separation, 2 marks for integration)\n\n        (b) Use \\( y(1) = 2 \\) to find \\( C \\).\n        \\( \\ln 2 = \\frac{1}{2} \\ln 1 + C \\)\n        \\( C = \\ln 2 \\)\n        \\( y = x^{1/2} e^{\\ln 2} = 2 \\sqrt{x} \\)\n        (2 marks)\n\n        (c) Substitute \\( x = 3 \\) into the particular solution.\n        \\( y = 2 \\sqrt{3} \u0007pprox 3.46 \\)\n        (2 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 458,
+  "fields": {
+    "subject": 4,
+    "text": "\n        A matrix \\( A \\) is given by \\( A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\).\n\n        (a) Calculate the determinant of \\( A \\). [2]\n\n        (b) Find the inverse of \\( A \\). [4]\n\n        (c) Verify that \\( A \\cdot A^{-1} = I \\), where \\( I \\) is the identity matrix. [2]\n        ",
+    "answer": "\n        (a) \n        \\( \\det(A) = 1 \\cdot 4 - 2 \\cdot 3 = -2 \\)\n        (2 marks)\n\n        (b) \n        \\( A^{-1} = \\frac{1}{-2} \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix} = \\begin{pmatrix} -2 & 1 \\\\ 1.5 & -0.5 \\end{pmatrix} \\)\n        (4 marks)\n\n        (c) \n        Multiply \\( A \\) by \\( A^{-1} \\) to verify.\n        \\( A \\cdot A^{-1} = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\begin{pmatrix} -2 & 1 \\\\ 1.5 & -0.5 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix} = I \\)\n        (2 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 459,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the vector functions \\( \\mathbf{r}_1(t) = \\begin{pmatrix} t \\\\ t^2 \\\\ t^3 \\end{pmatrix} \\) and \\( \\mathbf{r}_2(t) = \\begin{pmatrix} \\cos t \\\\ \\sin t \\\\ t \\end{pmatrix} \\).\n\n        (a) Find the dot product \\( \\mathbf{r}_1(t) \\cdot \\mathbf{r}_2(t) \\). [2]\n\n        (b) Determine if \\( \\mathbf{r}_1(t) \\) and \\( \\mathbf{r}_2(t) \\) are orthogonal for any \\( t \\). [3]\n\n        (c) Find the angle between \\( \\mathbf{r}_1(t) \\) and \\( \\mathbf{r}_2(t) \\) at \\( t = 1 \\). [3]\n        ",
+    "answer": "\n        (a) \n        \\( \\mathbf{r}_1(t) \\cdot \\mathbf{r}_2(t) = t \\cos t + t^2 \\sin t + t^4 \\)\n        (2 marks)\n\n        (b) Set \\( \\mathbf{r}_1(t) \\cdot \\mathbf{r}_2(t) = 0 \\) and solve.\n        No solution found, hence they are never orthogonal.\n        (3 marks)\n\n        (c) Use the formula \\( \\cos \\theta = \\frac{\\mathbf{r}_1(1) \\cdot \\mathbf{r}_2(1)}{|\\mathbf{r}_1(1)||\\mathbf{r}_2(1)|} \\).\n        \\( \\mathbf{r}_1(1) = \\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix} \\)\n        \\( \\mathbf{r}_2(1) = \\begin{pmatrix} \\cos 1 \\\\ \\sin 1 \\\\ 1 \\end{pmatrix} \\)\n        \\( \\mathbf{r}_1(1) \\cdot \\mathbf{r}_2(1) = 1 \\cos 1 + 1 \\sin 1 + 1 = \\cos 1 + \\sin 1 + 1 \\)\n        (3 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 460,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Given the complex numbers \\( z_1 = 2 + 3i \\) and \\( z_2 = 1 - i \\),\n\n        (a) Find \\( z_1 + z_2 \\) and \\( z_1 - z_2 \\). [2]\n\n        (b) Calculate \\( z_1 \\cdot z_2 \\) and \\( \\frac{z_1}{z_2} \\). [4]\n\n        (c) Determine the modulus and argument of \\( z_1 \\). [2]\n        ",
+    "answer": "\n        (a) \n        \\( z_1 + z_2 = 3 + 2i \\)\n        \\( z_1 - z_2 = 1 + 4i \\)\n        (1 mark each)\n\n        (b) \n        \\( z_1 \\cdot z_2 = (2 + 3i)(1 - i) = 2 - 2i + 3i - 3i^2 = 5 + i \\)\n        \\( \\frac{z_1}{z_2} = \\frac{2 + 3i}{1 - i} \\cdot \\frac{1 + i}{1 + i} = \\frac{(2 + 3i)(1 + i)}{1 - (-1)} = \\frac{2 + 2i + 3i + 3}{2} = \\frac{5 + 5i}{2} = \\frac{5}{2} + \\frac{5i}{2} \\)\n        (2 marks each)\n\n        (c) \n        \\( |z_1| = \\sqrt{2^2 + 3^2} = \\sqrt{13} \\)\n        \\( \\arg(z_1) = \\tan^{-1}(\\frac{3}{2}) \\)\n        (1 mark each)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 461,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Solve the quadratic equation \\( 3x^2 - 2x - 1 = 0 \\) using the quadratic formula.\n\n        (a) Show the steps to derive the solutions. [3]\n\n        (b) Verify the solutions by substitution. [3]\n\n        (c) Sketch the graph of \\( y = 3x^2 - 2x - 1 \\), indicating the roots. [4]\n        ",
+    "answer": "\n        (a) \n        \\( x = \\frac{-(-2) \\pm \\sqrt{(-2)^2 - 4 \\cdot 3 \\cdot (-1)}}{2 \\cdot 3} \\)\n        \\( x = \\frac{2 \\pm \\sqrt{4 + 12}}{6} \\)\n        \\( x = \\frac{2 \\pm \\sqrt{16}}{6} \\)\n        \\( x = \\frac{2 \\pm 4}{6} \\)\n        \\( x = 1, -\\frac{1}{3} \\)\n        (3 marks)\n\n        (b) \n        Substitute \\( x = 1 \\) and \\( x = -\\frac{1}{3} \\) back into the original equation.\n        Both should satisfy the equation.\n        (3 marks)\n\n        (c) \n        Sketch with correct roots and vertex.\n        (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 462,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the function \\( f(x) = 2 \\sin(x) + \\cos(2x) \\).\n\n        (a) Find the x-coordinates of the points where \\( f(x) = 0 \\) in the interval \\( 0 \\leq x \\leq 2\\pi \\). [4]\n\n        (b) Hence, find the exact values of \\( x \\) where \\( f(x) = 1 \\). [3]\n\n        (c) Convert the complex number \\( z = 1 + i\\sqrt{3} \\) to polar form. [3]\n\n        (d) Find the modulus and argument of \\( z \\). [2]\n\n        (e) Calculate \\( z^3 \\) and express the result in Cartesian form. [4]\n        ",
+    "answer": "\n        (a) \n        Correctly set up and solve the equation \\( 2 \\sin(x) + \\cos(2x) = 0 \\). Use identities where needed to simplify.\n        (4 marks)\n\n        (b) \n        Substitute the solutions back to check where \\( f(x) = 1 \\).\n        (3 marks)\n\n        (c) \n        Write \\( z \\) in polar form \\( z = re^{i\\theta} \\).\n        (3 marks)\n\n        (d) \n        Correctly find \\( r = \\sqrt{1 + (\\sqrt{3})^2} \\) and \\( \\theta = \\tan^{-1}(\\sqrt{3}) \\).\n        (2 marks)\n\n        (e) \n        Use De Moivre's theorem to find \\( z^3 \\).\n        (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 463,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the function \\( f(x) = \\frac{2x+1}{x^2 - 4} \\).\n\n        (a) Find the vertical and horizontal asymptotes of \\( f(x) \\). [3]\n\n        (b) Determine the inverse function \\( f^{-1}(x) \\). [4]\n\n        (c) Given the vectors \\( \\mathbf{a} = 2\\mathbf{i} + \\mathbf{j} \\) and \\( \\mathbf{b} = \\mathbf{i} - 3\\mathbf{j} \\):\n\n        (i) Find \\( |\\mathbf{a}| \\) and \\( |\\mathbf{b}| \\). [2]\n\n        (ii) Calculate the dot product \\( \\mathbf{a} \\cdot \\mathbf{b} \\). [2]\n\n        (iii) Determine the angle between \\( \\mathbf{a} \\) and \\( \\mathbf{b} \\). [4]\n        ",
+    "answer": "\n        (a) \n        Correctly identify and find asymptotes.\n        (3 marks)\n\n        (b) \n        Derive and verify the inverse function.\n        (4 marks)\n\n        (c) \n        (i) Calculate magnitudes using \\( |\\mathbf{a}| = \\sqrt{(2)^2 + (1)^2} \\).\n        (2 marks)\n\n        (ii) Find dot product using \\( \\mathbf{a} \\cdot \\mathbf{b} = 2(1) + 1(-3) \\).\n        (2 marks)\n\n        (iii) Use the dot product formula \\( \\cos(\\theta) = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{|\\mathbf{a}| |\\mathbf{b}|} \\).\n        (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 464,
+  "fields": {
+    "subject": 4,
+    "text": "\n        A fair six-sided die is rolled twice. Let \\( X \\) be the sum of the numbers obtained.\n\n        (a) Find the probability that \\( X = 7 \\). [3]\n\n        (b) Calculate the expected value of \\( X \\). [3]\n\n        (c) Evaluate the integral \\( \\int_{0}^{1} xe^{x^2} \\, dx \\). [4]\n\n        (d) Differentiate the function \\( g(x) = x^2 e^{3x} \\). [3]\n\n        (e) Solve the differential equation \\( \\frac{dy}{dx} = y \\ln(y) \\), given \\( y(1) = e \\). [4]\n        ",
+    "answer": "\n        (a) \n        List outcomes where \\( X = 7 \\) and calculate probability.\n        (3 marks)\n\n        (b) \n        Use expected value formula for a fair die.\n        (3 marks)\n\n        (c) \n        Use integration by parts: Let \\( u = x \\) and \\( dv = e^{x^2} \\, dx \\).\n        (4 marks)\n\n        (d) \n        Apply the product rule: \\( g'(x) = 2xe^{3x} + 3x^2 e^{3x} \\).\n        (3 marks)\n\n        (e) \n        Separate variables and integrate: \\( \\int \\frac{1}{y \\ln(y)} \\, dy = \\int dx \\).\n        (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 465,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the arithmetic sequence where the first term is 3 and the common difference is 5.\n\n        (a) Find the 10th term of the sequence. [2]\n\n        (b) Calculate the sum of the first 15 terms. [3]\n\n        (c) Determine the general term of the geometric sequence with the first term 4 and the common ratio 0.5. [2]\n\n        (d) Find the sum to infinity of the sequence. [2]\n\n        (e) Show that the sum of the first \\( n \\) terms is given by \\( S_n = 4(1 - 0.5^n) \\). [3]\n        ",
+    "answer": "\n        (a) \n        Use the formula \\( a_n = a + (n - 1)d \\).\n        (2 marks)\n\n        (b) \n        Apply the sum formula for an arithmetic series: \\( S_n = \\frac{n}{2}(2a + (n - 1)d) \\).\n        (3 marks)\n\n        (c) \n        Derive the general term \\( a_n = ar^{n-1} \\).\n        (2 marks)\n\n        (d) \n        Use the sum to infinity formula \\( S = \\frac{a}{1 - r} \\).\n        (2 marks)\n\n        (e) \n        Prove the sum of the first \\( n \\) terms using geometric series formula.\n        (3 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 466,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Let \\( P(x) = x^3 - 3x^2 + 4x - 2 \\).\n\n        (a) Use the factor theorem to show that \\( x = 1 \\) is a root of \\( P(x) \\). [2]\n\n        (b) Factorize \\( P(x) \\) completely. [4]\n\n        (c) Find the derivative of \\( P(x) \\). [3]\n\n        (d) Determine the stationary points and their nature. [5]\n\n        (e) Sketch the graph of \\( P(x) \\), showing all intercepts and stationary points. [4]\n        ",
+    "answer": "\n        (a) \n        Substitute \\( x = 1 \\) into \\( P(x) \\) and show \\( P(1) = 0 \\).\n        (2 marks)\n\n        (b) \n        Use polynomial division or synthetic division to factorize.\n        (4 marks)\n\n        (c) \n        Differentiate \\( P(x) \\) using standard rules: \\( P'(x) = 3x^2 - 6x + 4 \\).\n        (3 marks)\n\n        (d) \n        Solve \\( P'(x) = 0 \\) to find stationary points and test their nature using the second derivative.\n        (5 marks)\n\n        (e) \n        Combine all information to sketch the graph.\n        (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 467,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the exponential function \\( f(x) = 3e^{2x} \\).\n\n        (a) Find the value of \\( x \\) such that \\( f(x) = 27 \\). [3]\n\n        (b) Determine the inverse function \\( f^{-1}(x) \\). [3]\n\n        (c) Differentiate \\( f(x) \\). [2]\n\n        (d) Integrate \\( f(x) \\). [3]\n\n        (e) Solve the differential equation \\( \\frac{dy}{dx} = y \\ln(y) \\), given \\( y(1) = e \\). [4]\n        ",
+    "answer": "\n        (a) \n        Solve \\( 3e^{2x} = 27 \\).\n        (3 marks)\n\n        (b) \n        Derive and verify the inverse function.\n        (3 marks)\n\n        (c) \n        Differentiate using the chain rule: \\( f'(x) = 6e^{2x} \\).\n        (2 marks)\n\n        (d) \n        Integrate \\( f(x) = \\int 3e^{2x} \\, dx \\).\n        (3 marks)\n\n        (e) \n        Separate variables and integrate: \\( \\int \\frac{1}{y \\ln(y)} \\, dy = \\int dx \\).\n        (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 468,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Given points \\( A(1, 2, 3) \\) and \\( B(4, 6, 8) \\),\n\n        (a) Find the vector \\( \\overrightarrow{AB} \\). [2]\n\n        (b) Calculate the magnitude of \\( \\overrightarrow{AB} \\). [2]\n\n        (c) Given the plane \\( \\Pi: 2x - y + 3z = 6 \\):\n\n        (i) Determine if \\( A \\) and \\( B \\) lie on the plane. [4]\n\n        (ii) Find the equation of the line passing through \\( A \\) and perpendicular to the plane. [4]\n\n        (iii) Calculate the distance from point \\( A \\) to the plane. [4]\n        ",
+    "answer": "\n        (a) \n        Subtract coordinates to find \\( \\overrightarrow{AB} = (3, 4, 5) \\).\n        (2 marks)\n\n        (b) \n        Use the magnitude formula: \\( |\\overrightarrow{AB}| = \\sqrt{(3)^2 + (4)^2 + (5)^2} \\).\n        (2 marks)\n\n        (c) \n        (i) Substitute coordinates of \\( A \\) and \\( B \\) into the plane equation.\n        (4 marks)\n\n        (ii) Derive the line equation using direction ratios and point coordinates.\n        (4 marks)\n\n        (iii) Use the distance formula from a point to a plane.\n        (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 469,
+  "fields": {
+    "subject": 4,
+    "text": "\n        A factory produces light bulbs with a mean life of 1000 hours and a standard deviation of 100 hours. The life of a light bulb follows a normal distribution.\n\n        (a) Calculate the probability that a randomly selected light bulb lasts between 900 and 1100 hours. [4]\n\n        (b) Determine the 95th percentile of the light bulb life. [3]\n\n        (c) Define the random variable \\( X \\) as the number of defective bulbs in a sample of 50, where the probability of a bulb being defective is 0.02. Find the mean and variance of \\( X \\). [3]\n\n        (d) Using a suitable approximation, calculate the probability that there are more than 2 defective bulbs in the sample. [4]\n        ",
+    "answer": "\n        (a) \n        Use the Z-score formula \\( Z = \\frac{X - \\mu}{\\sigma} \\) to find the probabilities.\n        (4 marks)\n\n        (b) \n        Use standard normal distribution tables or inverse normal function.\n        (3 marks)\n\n        (c) \n        Use binomial distribution formulas: \\( \\mu = np \\) and \\( \\sigma^2 = np(1 - p) \\).\n        (3 marks)\n\n        (d) \n        Approximate using normal distribution with continuity correction.\n        (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 470,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Prove by induction that \\( 1 + 2 + \\cdots + n = \\frac{n(n+1)}{2} \\) for all positive integers \\( n \\).\n\n        (a) Prove the base case. [1]\n\n        (b) Prove the inductive step. [4]\n        ",
+    "answer": "\n        (a) \n        For \\( n = 1 \\):\n        \\( 1 = \\frac{1(1+1)}{2} = 1 \\)\n        (1 mark)\n\n        (b) \n        Assume true for \\( n = k \\), i.e., \\( 1 + 2 + \\cdots + k = \\frac{k(k+1)}{2} \\).\n        Show true for \\( n = k + 1 \\):\n        \\( 1 + 2 + \\cdots + k + (k + 1) = \\frac{k(k+1)}{2} + (k + 1) \\)\n        \\( = \\frac{k(k+1) + 2(k+1)}{2} \\)\n        \\( = \\frac{(k+1)(k+2)}{2} \\)\n        Therefore, true for \\( n = k + 1 \\).\n        (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 471,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the binomial expansion of \\( (1 + kx)^n \\). It is given that the coefficients of \\( x \\) and \\( x^2 \\) are 12 and 28 respectively.\n\n        (a) Find the values of \\( k \\) and \\( n \\). [3]\n\n        (b) Hence, find the coefficient of \\( x^3 \\). [3]\n        ",
+    "answer": "\n        (a) \n        Coefficient of \\( x \\) is \\( nk = 12 \\).\n        Coefficient of \\( x^2 \\) is \\( \\frac{n(n-1)}{2} k^2 = 28 \\).\n        Solve these equations to find \\( k \\) and \\( n \\).\n        (3 marks)\n\n        (b) \n        Coefficient of \\( x^3 \\) is \\( \\frac{n(n-1)(n-2)}{6} k^3 \\).\n        Substitute \\( k \\) and \\( n \\) to find the coefficient.\n        (3 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 472,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Prove by mathematical induction that \\( 5^n - 2^n \\) is divisible by 3 for all positive integers \\( n \\).\n\n        (a) Prove the base case. [1]\n\n        (b) Prove the inductive step. [4]\n        ",
+    "answer": "\n        (a) \n        For \\( n = 1 \\):\n        \\( 5^1 - 2^1 = 3 \\), which is divisible by 3.\n        (1 mark)\n\n        (b) \n        Assume true for \\( n = k \\), i.e., \\( 5^k - 2^k \\) is divisible by 3.\n        Show true for \\( n = k + 1 \\):\n        \\( 5^{k+1} - 2^{k+1} = 5 \\cdot 5^k - 2 \\cdot 2^k \\)\n        \\( = 5(5^k - 2^k) + 3 \\cdot 2^k \\)\n        By the inductive hypothesis, \\( 5^k - 2^k \\) is divisible by 3, and \\( 3 \\cdot 2^k \\) is also divisible by 3.\n        Therefore, \\( 5^{k+1} - 2^{k+1} \\) is divisible by 3.\n        (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 473,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the function \\( f(x) = \\frac{7x}{x^2 + 2} \\).\n\n        (a) Find the zero of \\( f(x) \\). [1]\n\n        (b) For the graph of \\( y = f(x) \\), write down the equations of:\n\n        (i) the vertical asymptote; [1]\n\n        (ii) the horizontal asymptote. [1]\n\n        (c) Find \\( f^{-1}(x) \\), the inverse function of \\( f(x) \\). [4]\n        ",
+    "answer": "\n        (a) \n        Solve \\( 7x = 0 \\) to find \\( x = 0 \\).\n        (1 mark)\n\n        (b) \n        (i) Vertical asymptote at \\( x^2 + 2 = 0 \\) which gives no real solutions.\n        (1 mark)\n\n        (ii) Horizontal asymptote as \\( x \\to \\infty \\) is \\( y = 0 \\).\n        (1 mark)\n\n        (c) \n        Swap \\( x \\) and \\( y \\) in \\( y = \\frac{7x}{x^2 + 2} \\) and solve for \\( y \\):\n        \\( x(y^2 + 2) = 7y \\)\n        \\( xy^2 + 2x = 7y \\)\n        \\( xy^2 - 7y + 2x = 0 \\)\n        Solve this quadratic in \\( y \\):\n        \\( y = \\frac{7 \\pm \\sqrt{49 - 8x^2}}{2x} \\)\n        \\( f^{-1}(x) = \\frac{7 \\pm \\sqrt{49 - 8x^2}}{2x} \\)\n        (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 474,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the polynomial \\( P(x) = x^4 + px^3 + 54x^2 - 108x + 80 \\) where \\( x \\in \\mathbb{C} \\) and \\( p \\in \\mathbb{R} \\). Three of the roots are 3, \\( 3 + i \\), and \\( 3 - i \\).\n\n        (a) By considering the product of all the roots of the equation, find the value of \\( p \\). [4]\n\n        (b) Find the value of \\( q \\). [2]\n        ",
+    "answer": "\n        (a) \n        Let the roots be \\( 3, 3 + i, 3 - i \\) and \\( r \\).\n        By Vieta's formulas, the product of the roots is \\( 3(3 + i)(3 - i)r = -80 \\).\n        Simplify and solve for \\( r \\):\n        \\( 9r = -80 \\)\n        \\( r = -\\frac{80}{9} \\)\n        Sum of the roots is \\( 3 + (3 + i) + (3 - i) + r = -p \\):\n        \\( 9 - \\frac{80}{9} = -p \\)\n        Simplify to find \\( p \\).\n        (4 marks)\n\n        (b) \n        Use the same Vieta's formulas to find \\( q \\).\n        (2 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 475,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the sequence defined by \\( u_1 = 1 \\) and \\( u_{n+1} = 2u_n + 3 \\).\n\n        (a) Find the first four terms of the sequence. [4]\n\n        (b) Prove by induction that \\( u_n = 3 \\cdot 2^n - 2 \\) for all positive integers \\( n \\). [4]\n        ",
+    "answer": "\n        (a) \n        Calculate \\( u_2, u_3 \\) and \\( u_4 \\) using the recursive formula.\n        (4 marks)\n\n        (b) \n        Prove by induction:\n        Base case: For \\( n = 1 \\),\n        \\( u_1 = 1 = 3 \\cdot 2^1 - 2 \\).\n        Inductive step: Assume true for \\( n = k \\), i.e., \\( u_k = 3 \\cdot 2^k - 2 \\).\n        Show true for \\( n = k + 1 \\):\n        \\( u_{k+1} = 2u_k + 3 \\)\n        \\( = 2(3 \\cdot 2^k - 2) + 3 \\)\n        \\( = 6 \\cdot 2^k - 4 + 3 \\)\n        \\( = 3 \\cdot 2^{k+1} - 2 \\)\n        Therefore, true for \\( n = k + 1 \\).\n        (4 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 476,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Given the differential equation \\( \\frac{dy}{dx} = \\frac{y}{2x} \\),\n\n        (a) Separate the variables and find the general solution. [5]\n\n        (b) Find the particular solution given that \\( y(0) = 1 \\). [3]\n        ",
+    "answer": "\n        (a) \n        Separate variables:\n        \\( \\frac{1}{y} dy = \\frac{1}{2x} dx \\)\n        Integrate both sides:\n        \\( \\int \\frac{1}{y} dy = \\int \\frac{1}{2x} dx \\)\n        \\( \\ln |y| = \\frac{1}{2} \\ln |x| + C \\)\n        Solve for \\( y \\):\n        \\( y = Cx^{1/2} \\)\n        (5 marks)\n\n        (b) \n        Use initial condition \\( y(0) = 1 \\) to find \\( C \\):\n        \\( 1 = C \\cdot 0^{1/2} \\)\n        \\( C = 1 \\)\n        Therefore, \\( y = x^{1/2} \\)\n        (3 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 477,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Prove by induction that \\( n! > 2^n \\) for all \\( n \\geq 4 \\).\n\n        (a) Prove the base case. [1]\n\n        (b) Prove the inductive step. [5]\n        ",
+    "answer": "\n        (a) \n        For \\( n = 4 \\):\n        \\( 4! = 24 > 2^4 = 16 \\)\n        (1 mark)\n\n        (b) \n        Assume true for \\( n = k \\), i.e., \\( k! > 2^k \\).\n        Show true for \\( n = k + 1 \\):\n        \\( (k + 1)! = (k + 1)k! > (k + 1)2^k \\)\n        Since \\( k \\geq 4 \\), \\( k + 1 > 2 \\):\n        \\( (k + 1)2^k > 2 \\cdot 2^k = 2^{k + 1} \\)\n        Therefore, \\( (k + 1)! > 2^{k + 1} \\).\n        (5 marks)\n        ",
+    "paper": "1",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 479,
+  "fields": {
+    "subject": 4,
+    "text": "\n        A company sells a product at a price of \\( p \\) dollars per unit and sells \\( q \\) units. The revenue function is \\( R = pq \\). The company estimates that the demand function is \\( q = 1000 - 50p \\).\n\n        (a) Find the revenue function \\( R(p) \\) in terms of \\( p \\). [2]\n\n        (b) Find the price \\( p \\) that maximizes revenue. [4]\n        ",
+    "answer": "\n        (a) Substitute \\( q = 1000 - 50p \\) into \\( R = pq \\):\n        \\( R(p) = p(1000 - 50p) \\)\n        \\( R(p) = 1000p - 50p^2 \\)\n        (2 marks)\n\n        (b) To find the price that maximizes revenue, differentiate \\( R(p) \\) and set the derivative to zero:\n        \\( R'(p) = 1000 - 100p \\)\n        Set \\( R'(p) = 0 \\):\n        \\( 1000 - 100p = 0 \\)\n        \\( p = 10 \\)\n        Verify that this is a maximum by checking the second derivative:\n        \\( R''(p) = -100 \\), which is negative, indicating a maximum.\n        (4 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 481,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Prove by mathematical induction that \\( 5^n - 2^n \\) is divisible by 3 for all positive integers \\( n \\).\n\n        (a) Prove the base case. [1]\n\n        (b) Prove the inductive step. [4]\n        ",
+    "answer": "\n        (a) For \\( n = 1 \\):\n        \\( 5^1 - 2^1 = 3 \\), which is divisible by 3.\n        (1 mark)\n\n        (b) Assume true for \\( n = k \\), i.e., \\( 5^k - 2^k \\) is divisible by 3.\n        Show true for \\( n = k + 1 \\):\n        \\( 5^{k+1} - 2^{k+1} = 5 \\cdot 5^k - 2 \\cdot 2^k \\)\n        \\( = 5(5^k - 2^k) + 3 \\cdot 2^k \\)\n        By the inductive hypothesis, \\( 5^k - 2^k \\) is divisible by 3, and \\( 3 \\cdot 2^k \\) is also divisible by 3.\n        Therefore, \\( 5^{k+1} - 2^{k+1} \\) is divisible by 3.\n        (4 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 482,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Given the polynomial \\( P(x) = x^4 + px^3 + 54x^2 - 108x + 80 \\) where \\( x \\in \\mathbb{C} \\) and \\( p \\in \\mathbb{R} \\). Three of the roots are 3, \\( 3 + i \\), and \\( 3 - i \\).\n\n        (a) By considering the product of all the roots of the equation, find the value of \\( p \\). [4]\n\n        (b) Find the value of \\( q \\). [2]\n        ",
+    "answer": "\n        (a) \n        Let the roots be \\( 3, 3 + i, 3 - i \\) and \\( r \\).\n        By Vieta's formulas, the product of the roots is \\( 3(3 + i)(3 - i)r = -80 \\).\n        Simplify and solve for \\( r \\):\n        \\( 9r = -80 \\)\n        \\( r = -\frac{80}{9} \\)\n        Sum of the roots is \\( 3 + (3 + i) + (3 - i) + r = -p \\):\n        \\( 9 - \frac{80}{9} = -p \\)\n        Simplify to find \\( p \\).\n        (4 marks)\n\n        (b) \n        Use the same Vieta's formulas to find \\( q \\).\n        (2 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 484,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the sequence defined by \\( u_1 = 1 \\) and \\( u_{n+1} = 2u_n + 3 \\).\n\n        (a) Find the first four terms of the sequence. [4]\n\n        (b) Prove by induction that \\( u_n = 3 \\cdot 2^n - 2 \\) for all positive integers \\( n \\). [4]\n        ",
+    "answer": "\n        (a) \n        Calculate \\( u_2, u_3 \\) and \\( u_4 \\) using the recursive formula.\n        (4 marks)\n\n        (b) \n        Prove by induction:\n        Base case: For \\( n = 1 \\),\n        \\( u_1 = 1 = 3 \\cdot 2^1 - 2 \\).\n        Inductive step: Assume true for \\( n = k \\), i.e., \\( u_k = 3 \\cdot 2^k - 2 \\).\n        Show true for \\( n = k + 1 \\):\n        \\( u_{k+1} = 2u_k + 3 \\)\n        \\( = 2(3 \\cdot 2^k - 2) + 3 \\)\n        \\( = 6 \\cdot 2^k - 4 + 3 \\)\n        \\( = 3 \\cdot 2^{k+1} - 2 \\)\n        Therefore, true for \\( n = k + 1 \\).\n        (4 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 485,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Prove by mathematical induction that \\( 4^n + 15 \\) is divisible by 3 for all positive integers \\( n \\).\n\n        (a) Prove the base case. [1]\n\n        (b) Prove the inductive step. [5]\n        ",
+    "answer": "\n        (a) \n        For \\( n = 1 \\):\n        \\( 4^1 + 15 = 19 \\), which is divisible by 3.\n        (1 mark)\n\n        (b) \n        Assume true for \\( n = k \\), i.e., \\( 4^k + 15 \\) is divisible by 3.\n        Show true for \\( n = k + 1 \\):\n        \\( 4^{k+1} + 15 = 4 \\cdot 4^k + 15 \\)\n        \\( = 4(4^k + 15) - 3 \\cdot 4^k \\)\n        By the inductive hypothesis, \\( 4^k + 15 \\) is divisible by 3, and \\( - 3 \\cdot 4^k \\) is also divisible by 3.\n        Therefore, \\( 4^{k+1} + 15 \\) is divisible by 3.\n        (5 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 486,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Given the differential equation \\( \\frac{dy}{dx} = \\frac{y}{2x} \\),\n\n        (a) Separate the variables and find the general solution. [5]\n\n        (b) Find the particular solution given that \\( y(0) = 1 \\). [3]\n        ",
+    "answer": "\n        (a) \n        Separate variables:\n        \\( \\frac{1}{y} dy = \\frac{1}{2x} dx \\)\n        Integrate both sides:\n        \\( \\int \\frac{1}{y} dy = \\int \\frac{1}{2x} dx \\)\n        \\( \\ln |y| = \\frac{1}{2} \\ln |x| + C \\)\n        Solve for \\( y \\):\n        \\( y = Cx^{1/2} \\)\n        (5 marks)\n\n        (b) \n        Use initial condition \\( y(0) = 1 \\) to find \\( C \\):\n        \\( 1 = C \\cdot 0^{1/2} \\)\n        \\( C = 1 \\)\n        Therefore, \\( y = x^{1/2} \\)\n        (3 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 487,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Solve the equation \\( 3 \\cos^2(x) - 2 \\cos(x) - 1 = 0 \\) for \\( 0 \\leq x \\leq 2\\pi \\).\n        ",
+    "answer": "\n        Let \\( u = \\cos(x) \\).\n\n        \\( 3u^2 - 2u - 1 = 0 \\).\n\n        Factorize to find \\( u \\):\n        \\( (3u + 1)(u - 1) = 0 \\).\n\n        Therefore, \\( u = -\\frac{1}{3} \\) or \\( u = 1 \\).\n\n        So, \\( \\cos(x) = -\\frac{1}{3} \\) or \\( \\cos(x) = 1 \\).\n\n        Solutions in the interval \\( 0 \\leq x \\leq 2\\pi \\) are:\n        \\( x = 0, \\pi, \\cos^{-1}(-\\frac{1}{3}) \\).\n\n        (4 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 488,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the polynomial \\( P(x) = x^4 + px^3 + 54x^2 - 108x + 80 \\) where \\( x \\in \\mathbb{C} \\) and \\( p \\in \\mathbb{R} \\). Three of the roots are 3, \\( 3 + i \\), and \\( 3 - i \\).\n\n        (a) By considering the product of all the roots of the equation, find the value of \\( p \\). [4]\n\n        (b) Find the value of \\( q \\). [2]\n        ",
+    "answer": "\n        (a) \n        Let the roots be \\( 3, 3 + i, 3 - i \\) and \\( r \\).\n        By Vieta's formulas, the product of the roots is \\( 3(3 + i)(3 - i)r = -80 \\).\n        Simplify and solve for \\( r \\):\n        \\( 9r = -80 \\)\n        \\( r = -\\frac{80}{9} \\)\n        Sum of the roots is \\( 3 + (3 + i) + (3 - i) + r = -p \\):\n        \\( 9 - \\frac{80}{9} = -p \\)\n        Simplify to find \\( p \\).\n        (4 marks)\n\n        (b) \n        Use the same Vieta's formulas to find \\( q \\).\n        (2 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 489,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Given the polynomial \\( P(x) = x^4 - 10x^3 + 35x^2 - 50x + 24 \\),\n\n        (a) Find the roots of the polynomial. [4]\n\n        (b) Verify that the roots satisfy the polynomial equation. [4]\n        ",
+    "answer": "\n        (a) \n        Factorize the polynomial:\n        \\( P(x) = (x-1)^2(x-2)^2 \\)\n        Roots are \\( x = 1, 2 \\).\n        (4 marks)\n\n        (b) \n        Substitute \\( x = 1 \\) and \\( x = 2 \\) back into the polynomial to verify.\n        \\( P(1) = (1-1)^2(1-2)^2 = 0 \\)\n        \\( P(2) = (2-1)^2(2-2)^2 = 0 \\)\n        Therefore, the roots satisfy the polynomial equation.\n        (4 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 490,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the polynomial \\( P(x) = x^3 - 6x^2 + 11x - 6 \\). Find the roots of the cubic polynomial \\( P(x) \\).\n        ",
+    "answer": "\n        Factorize the polynomial:\n        \\( P(x) = (x-1)(x-2)(x-3) \\)\n        Roots are \\( x = 1, 2, 3 \\).\n        (4 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 491,
+  "fields": {
+    "subject": 4,
+    "text": "\n        A particle moves along a path described by the parametric equations \\( x(t) = t^2 \\) and \\( y(t) = t^3 - 3t \\).\n\n        (a) Find the coordinates of the particle at \\( t = 1 \\). [2]\n\n        (b) Determine the velocity vector at \\( t = 1 \\). [3]\n\n        (c) Calculate the speed of the particle at \\( t = 1 \\). [2]\n        ",
+    "answer": "\n        (a) \n        Substitute \\( t = 1 \\) into \\( x(t) \\) and \\( y(t) \\):\n        \\( x(1) = 1^2 = 1 \\)\n        \\( y(1) = 1^3 - 3(1) = -2 \\)\n        Coordinates are \\( (1, -2) \\).\n        (2 marks)\n\n        (b) \n        Differentiate \\( x(t) \\) and \\( y(t) \\) with respect to \\( t \\):\n        \\( \\frac{dx}{dt} = 2t \\)\n        \\( \\frac{dy}{dt} = 3t^2 - 3 \\)\n        At \\( t = 1 \\):\n        \\( \\frac{dx}{dt} = 2(1) = 2 \\)\n        \\( \\frac{dy}{dt} = 3(1)^2 - 3 = 0 \\)\n        Velocity vector is \\( \\mathbf{v}(1) = (2, 0) \\).\n        (3 marks)\n\n        (c) \n        Speed is the magnitude of the velocity vector:\n        \\( \\text{Speed} = \\sqrt{2^2 + 0^2} = 2 \\)\n        (2 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 492,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Evaluate the integral \\( \\int_0^1 (x^3 - 4x^2 + 3x) \\, dx \\).\n        ",
+    "answer": "\n        Integrate term by term:\n        \\( \\int (x^3 - 4x^2 + 3x) \\, dx = \\frac{x^4}{4} - \\frac{4x^3}{3} + \\frac{3x^2}{2} + C \\)\n        Evaluate from 0 to 1:\n        \\( \\left[ \\frac{1}{4} - \\frac{4}{3} + \\frac{3}{2} \\right] - \\left[ 0 \\right] \\)\n        Simplify:\n        \\( = \\frac{1}{4} - \\frac{16}{12} + \\frac{18}{12} \\)\n        \\( = \\frac{1}{4} - \\frac{4}{12} \\)\n        \\( = \\frac{1}{4} - \\frac{1}{3} + \\frac{1}{2} \\)\n        \\( = \\frac{3}{12} - \\frac{4}{12} + \\frac{6}{12} \\)\n        \\( = \\frac{5}{12} \\)\n        (4 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 493,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Given the complex numbers \\( z_1 = 2 + 3i \\) and \\( z_2 = 1 - i \\):\n\n        (a) Find \\( z_1 + z_2 \\) and \\( z_1 - z_2 \\). [2]\n\n        (b) Calculate \\( z_1 \\cdot z_2 \\) and \\( \\frac{z_1}{z_2} \\). [4]\n\n        (c) Determine the modulus and argument of \\( z_1 \\). [2]\n        ",
+    "answer": "\n        (a) \n        Addition and subtraction of complex numbers:\n        \\( z_1 + z_2 = (2 + 3i) + (1 - i) = 3 + 2i \\)\n        \\( z_1 - z_2 = (2 + 3i) - (1 - i) = 1 + 4i \\)\n        (2 marks)\n\n        (b) \n        Multiplication and division of complex numbers:\n        \\( z_1 \\cdot z_2 = (2 + 3i)(1 - i) = 2 - 2i + 3i - 3i^2 = 5 + i \\)\n        \\( \\frac{z_1}{z_2} = \\frac{2 + 3i}{1 - i} \\cdot \\frac{1 + i}{1 + i} = \\frac{(2 + 3i)(1 + i)}{1^2 - i^2} = \\frac{2 + 2i + 3i + 3i^2}{1 + 1} = \\frac{2 + 2i + 3i - 3}{2} = \\frac{-1 + 5i}{2} = -\\frac{1}{2} + \\frac{5i}{2} \\)\n        (4 marks)\n\n        (c) \n        Modulus and argument of a complex number:\n        \\( |z_1| = \\sqrt{2^2 + 3^2} = \\sqrt{4 + 9} = \\sqrt{13} \\)\n        \\( \\arg(z_1) = \\tan^{-1}(\\frac{3}{2}) \\)\n        (2 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 494,
+  "fields": {
+    "subject": 4,
+    "text": "\n        The function \\( f(x) = \\frac{7x}{x^2 + 2} \\).\n\n        (a) Find the zero of \\( f(x) \\). [1]\n\n        (b) For the graph of \\( y = f(x) \\), write down the equations of:\n        (i) the vertical asymptote; [1]\n        (ii) the horizontal asymptote. [1]\n\n        (c) Find \\( f^{-1}(x) \\), the inverse function of \\( f(x) \\). [4]\n        ",
+    "answer": "\n        (a) \n        Solve \\( 7x = 0 \\) to find \\( x = 0 \\).\n        (1 mark)\n\n        (b) \n        (i) Vertical asymptote at \\( x^2 + 2 = 0 \\) which gives no real solutions.\n        (1 mark)\n\n        (ii) Horizontal asymptote as \\( x \to \\infty \\) is \\( y = 0 \\).\n        (1 mark)\n\n        (c) \n        Swap \\( x \\) and \\( y \\) in \\( y = \\frac{7x}{x^2 + 2} \\) and solve for \\( y \\):\n        \\( x(y^2 + 2) = 7y \\)\n        \\( xy^2 + 2x = 7y \\)\n        \\( xy^2 - 7y + 2x = 0 \\)\n        Solve this quadratic in \\( y \\):\n        \\( y = \\frac{7 \\pm \\sqrt{49 - 8x^2}}{2x} \\)\n        \\( f^{-1}(x) = \\frac{7 \\pm \\sqrt{49 - 8x^2}}{2x} \\)\n        (4 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 495,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the polynomial \\( P(x) = x^4 - 10x^3 + 35x^2 - 50x + 24 \\),\n\n        (a) Find the roots of the polynomial. [4]\n\n        (b) Verify that the roots satisfy the polynomial equation. [4]\n        ",
+    "answer": "\n        (a) \n        Factorize the polynomial:\n        \\( P(x) = (x-1)^2(x-2)^2 \\)\n        Roots are \\( x = 1, 2 \\).\n        (4 marks)\n\n        (b) \n        Substitute \\( x = 1 \\) and \\( x = 2 \\) back into the polynomial to verify.\n        \\( P(1) = (1-1)^2(1-2)^2 = 0 \\)\n        \\( P(2) = (2-1)^2(2-2)^2 = 0 \\)\n        Therefore, the roots satisfy the polynomial equation.\n        (4 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 496,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Given the differential equation \\( \\frac{dy}{dx} = \\frac{y}{2x} \\),\n\n        (a) Separate the variables and find the general solution. [5]\n\n        (b) Find the particular solution given that \\( y(0) = 1 \\). [3]\n        ",
+    "answer": "\n        (a) \n        Separate variables:\n        \\( \\frac{1}{y} dy = \\frac{1}{2x} dx \\)\n        Integrate both sides:\n        \\( \\int \\frac{1}{y} dy = \\int \\frac{1}{2x} dx \\)\n        \\( \\ln |y| = \\frac{1}{2} \\ln |x| + C \\)\n        Solve for \\( y \\):\n        \\( y = Cx^{1/2} \\)\n        (5 marks)\n\n        (b) \n        Use initial condition \\( y(0) = 1 \\) to find \\( C \\):\n        \\( 1 = C \\cdot 0^{1/2} \\)\n        \\( C = 1 \\)\n        Therefore, \\( y = x^{1/2} \\)\n        (3 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 497,
+  "fields": {
+    "subject": 4,
+    "text": "\n        A factory produces light bulbs with a mean life of 1000 hours and a standard deviation of 100 hours. The life of a light bulb follows a normal distribution.\n\n        (a) Calculate the probability that a randomly selected light bulb lasts between 900 and 1100 hours. [4]\n\n        (b) Determine the 95th percentile of the light bulb life. [3]\n\n        (c) Define the random variable \\( X \\) as the number of defective bulbs in a sample of 50, where the probability of a bulb being defective is 0.02. Find the mean and variance of \\( X \\). [3]\n\n        (d) Using a suitable approximation, calculate the probability that there are more than 2 defective bulbs in the sample. [4]\n        ",
+    "answer": "\n        (a) \n        Use the Z-score formula \\( Z = \\frac{X - \\mu}{\\sigma} \\) to find the probabilities.\n        For 900 hours:\n        \\( Z = \\frac{900 - 1000}{100} = -1 \\)\n        For 1100 hours:\n        \\( Z = \\frac{1100 - 1000}{100} = 1 \\)\n        Use standard normal distribution tables to find the probabilities:\n        \\( P(-1 \\leq Z \\leq 1) = 0.6826 \\)\n        Therefore, the probability is 0.6826.\n        (4 marks)\n\n        (b) \n        Use standard normal distribution tables or inverse normal function to find the Z-score corresponding to the 95th percentile:\n        \\( Z = 1.645 \\)\n        Convert Z-score to X:\n        \\( X = \\mu + Z \\cdot \\sigma = 1000 + 1.645 \\cdot 100 = 1164.5 \\)\n        Therefore, the 95th percentile is 1164.5 hours.\n        (3 marks)\n\n        (c) \n        Use binomial distribution formulas:\n        Mean \\( \\mu = np \\)\n        Variance \\( \\sigma^2 = np(1-p) \\)\n        For \\( n = 50 \\) and \\( p = 0.02 \\):\n        \\( \\mu = 50 \\cdot 0.02 = 1 \\)\n        \\( \\sigma^2 = 50 \\cdot 0.02 \\cdot 0.98 = 0.98 \\)\n        Therefore, the mean is 1 and the variance is 0.98.\n        (3 marks)\n\n        (d) \n        Approximate using normal distribution with continuity correction.\n        \\( P(X > 2) \\)\n        Use continuity correction:\n        \\( P(X > 2) = P(X \\geq 2.5) \\)\n        Find the Z-score:\n        \\( Z = \\frac{2.5 - 1}{\\sqrt{0.98}} = 1.52 \\)\n        Use standard normal distribution tables to find the probability:\n        \\( P(Z > 1.52) = 0.0643 \\)\n        Therefore, the probability is 0.0643.\n        (4 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 499,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Consider the polynomial \\( P(x) = x^4 - 10x^3 + 35x^2 - 50x + 24 \\),\n\n        (a) Find the roots of the polynomial. [4]\n\n        (b) Verify that the roots satisfy the polynomial equation. [4]\n        ",
+    "answer": "\n        (a) \n        Factorize the polynomial:\n        \\( P(x) = (x-1)^2(x-2)^2 \\)\n        Roots are \\( x = 1, 2 \\).\n        (4 marks)\n\n        (b) \n        Substitute \\( x = 1 \\) and \\( x = 2 \\) back into the polynomial to verify.\n        \\( P(1) = (1-1)^2(1-2)^2 = 0 \\)\n        \\( P(2) = (2-1)^2(2-2)^2 = 0 \\)\n        Therefore, the roots satisfy the polynomial equation.\n        (4 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 500,
+  "fields": {
+    "subject": 4,
+    "text": "\n        Given the differential equation \\( \\frac{dy}{dx} = \\frac{y}{2x} \\),\n\n        (a) Separate the variables and find the general solution. [5]\n\n        (b) Find the particular solution given that \\( y(0) = 1 \\). [3]\n        ",
+    "answer": "\n        (a) \n        Separate variables:\n        \\( \\frac{1}{y} dy = \\frac{1}{2x} dx \\)\n        Integrate both sides:\n        \\( \\int \\frac{1}{y} dy = \\int \\frac{1}{2x} dx \\)\n        \\( \\ln |y| = \\frac{1}{2} \\ln |x| + C \\)\n        Solve for \\( y \\):\n        \\( y = Cx^{1/2} \\)\n        (5 marks)\n\n        (b) \n        Use initial condition \\( y(0) = 1 \\) to find \\( C \\):\n        \\( 1 = C \\cdot 0^{1/2} \\)\n        \\( C = 1 \\)\n        Therefore, \\( y = x^{1/2} \\)\n        (3 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 501,
+  "fields": {
+    "subject": 4,
+    "text": "\n        A particle moves along a path described by the parametric equations \\( x(t) = t^2 \\) and \\( y(t) = t^3 - 3t \\).\n\n        (a) Find the coordinates of the particle at \\( t = 1 \\). [2]\n\n        (b) Determine the velocity vector at \\( t = 1 \\). [3]\n\n        (c) Calculate the speed of the particle at \\( t = 1 \\). [2]\n        ",
+    "answer": "\n        (a) \n        Substitute \\( t = 1 \\) into \\( x(t) \\) and \\( y(t) \\):\n        \\( x(1) = 1^2 = 1 \\)\n        \\( y(1) = 1^3 - 3(1) = -2 \\)\n        Coordinates are \\( (1, -2) \\).\n        (2 marks)\n\n        (b) \n        Differentiate \\( x(t) \\) and \\( y(t) \\) with respect to \\( t \\):\n        \\( \\frac{dx}{dt} = 2t \\)\n        \\( \\frac{dy}{dt} = 3t^2 - 3 \\)\n        At \\( t = 1 \\):\n        \\( \\frac{dx}{dt} = 2(1) = 2 \\)\n        \\( \\frac{dy}{dt} = 3(1)^2 - 3 = 0 \\)\n        Velocity vector is \\( \\mathbf{v}(1) = (2, 0) \\).\n        (3 marks)\n\n        (c) \n        Speed is the magnitude of the velocity vector:\n        \\( \\text{Speed} = \\sqrt{2^2 + 0^2} = 2 \\)\n        (2 marks)\n        ",
+    "paper": "2",
+    "choices": null,
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1091,
+  "fields": {
+    "subject": 3,
+    "text": "A particle of mass 0.5 kg is subject to a force \\( F \\) which varies with displacement \\( x \\) according to the equation \\( F = 3x^2 + 2x \\). What is the work done by the force when the particle moves from \\( x = 1 \\, \\text{m} \\) to \\( x = 3 \\, \\text{m} \\)?",
+    "answer": "D. 36 J",
+    "paper": "1",
+    "choices": "A. 18 J\\nB. 24 J\\nC. 30 J\\nD. 36 J",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1092,
+  "fields": {
+    "subject": 3,
+    "text": "In a double-slit experiment, the distance between the slits is 0.5 mm, and the screen is placed 2 m away. If the wavelength of the light used is 600 nm, what is the distance between the central maximum and the first-order maximum on the screen?",
+    "answer": "C. 2.4 mm",
+    "paper": "1",
+    "choices": "A. 0.24 mm\\nB. 1.2 mm\\nC. 2.4 mm\\nD. 3.6 mm",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1093,
+  "fields": {
+    "subject": 3,
+    "text": "A cylindrical tank of radius 0.5 m and height 2 m is filled with water. Calculate the pressure exerted by the water at the bottom of the tank. (Density of water = 1000 kg/m^3, \\( g = 9.8 \\, \\text{m/s}^2 \\))",
+    "answer": "B. 19600 Pa",
+    "paper": "1",
+    "choices": "A. 9800 Pa\\nB. 19600 Pa\\nC. 29400 Pa\\nD. 39200 Pa",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1094,
+  "fields": {
+    "subject": 3,
+    "text": "A capacitor of capacitance 10 \\(\\mu\\)F is charged to a potential difference of 5 V. It is then disconnected from the power supply and connected in parallel with an uncharged capacitor of capacitance 20 \\(\\mu\\)F. What is the final potential difference across the capacitors?",
+    "answer": "A. 1.67 V",
+    "paper": "1",
+    "choices": "A. 1.67 V\\nB. 2.5 V\\nC. 3.33 V\\nD. 5 V",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1095,
+  "fields": {
+    "subject": 3,
+    "text": "An electron is accelerated from rest through a potential difference of 1000 V. Calculate the final speed of the electron. (Charge of electron = \\( 1.6 \\times 10^{-19} \\, \\text{C} \\), mass of electron = \\( 9.1 \\times 10^{-31} \\, \\text{kg} \\))",
+    "answer": "B. \\( 5.93 \\times 10^7 \\, \\text{m/s} \\)",
+    "paper": "1",
+    "choices": "A. \\( 1.87 \\times 10^7 \\, \\text{m/s} \\)\\nB. \\( 5.93 \\times 10^7 \\, \\text{m/s} \\)\\nC. \\( 1.87 \\times 10^8 \\, \\text{m/s} \\)\\nD. \\( 5.93 \\times 10^8 \\, \\text{m/s} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1096,
+  "fields": {
+    "subject": 3,
+    "text": "A block of mass 2 kg is attached to a spring of spring constant 200 N/m. The block is displaced 0.1 m from its equilibrium position and released. What is the maximum speed of the block?",
+    "answer": "C. 1 m/s",
+    "paper": "1",
+    "choices": "A. 0.1 m/s\\nB. 0.5 m/s\\nC. 1 m/s\\nD. 2 m/s",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1097,
+  "fields": {
+    "subject": 3,
+    "text": "A gas undergoes an adiabatic expansion, during which its temperature drops from 300 K to 200 K. If the initial pressure was 2 atm, what is the final pressure? (Assume \\( \\gamma = 1.4 \\))",
+    "answer": "A. 0.47 atm",
+    "paper": "1",
+    "choices": "A. 0.47 atm\\nB. 0.69 atm\\nC. 1.29 atm\\nD. 1.73 atm",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1098,
+  "fields": {
+    "subject": 3,
+    "text": "A 1 kg mass oscillates on a spring with a period of 2 s. What is the spring constant of the spring?",
+    "answer": "D. 19.74 N/m",
+    "paper": "1",
+    "choices": "A. 1.57 N/m\\nB. 3.14 N/m\\nC. 9.87 N/m\\nD. 19.74 N/m",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1099,
+  "fields": {
+    "subject": 3,
+    "text": "In a certain photoelectric effect experiment, light of frequency \\( 7.5 \\times 10^{14} \\, \\text{Hz} \\) is used. The work function of the metal is 2 eV. What is the maximum kinetic energy of the emitted electrons? (1 eV = \\( 1.6 \\times 10^{-19} \\, \\text{J} \\), \\( h = 6.63 \\times 10^{-34} \\, \\text{Js} \\))",
+    "answer": "B. \\( 3.97 \\times 10^{-19} \\, \\text{J} \\)",
+    "paper": "1",
+    "choices": "A. \\( 2.0 \\times 10^{-19} \\, \\text{J} \\)\\nB. \\( 3.97 \\times 10^{-19} \\, \\text{J} \\)\\nC. \\( 5.97 \\times 10^{-19} \\, \\text{J} \\)\\nD. \\( 7.97 \\times 10^{-19} \\, \\text{J} \\)",
+    "topic": ""
+  }
+},
+{
+  "model": "main.question",
+  "pk": 1100,
+  "fields": {
+    "subject": 3,
+    "text": "A proton is moving in a circular path of radius 0.1 m in a magnetic field of 1 T. What is the speed of the proton? (Charge of proton = \\( 1.6 \\times 10^{-19} \\, \\text{C} \\), mass of proton = \\( 1.67 \\times 10^{-27} \\, \\text{kg} \\))",
+    "answer": "C. \\( 9.58 \\times 10^6 \\, \\text{m/s} \\)",
+    "paper": "1",
+    "choices": "A. \\( 9.58 \\times 10^5 \\, \\text{m/s} \\)\\nB. \\( 1.58 \\times 10^6 \\, \\text{m/s} \\)\\nC. \\( 9.58 \\times 10^6 \\, \\text{m/s} \\)\\nD. \\( 1.58 \\times 10^7 \\, \\text{m/s} \\)",
+    "topic": ""
+  }
+}
+]
