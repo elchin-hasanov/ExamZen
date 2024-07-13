@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure-a%r3hy1s-_6jc!yj2x(6ib*9_d=ckqii7&wema9vcpus=hm@6_
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['examzen-production.up.railway.app', '127.0.0.1']
+ALLOWED_HOSTS = ['web-production-2e581.up.railway.app', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -77,18 +77,16 @@ STATIC_ROOT =os.path.join(BASE_DIR, 'staticfiles')
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-CSRF_TRUSTED_ORIGINS = ['https://examzen-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-2e581.up.railway.app']
 
-
-DATABASE_URL = 'postgresql://postgres:JlQjjGqcwkvuWZgTZgYBTKhTEbNNpOWJ@viaduct.proxy.rlwy.net:40184/railway'
 DATABASES = {
     'default': { 
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'JlQjjGqcwkvuWZgTZgYBTKhTEbNNpOWJ',
-        'HOST': 'viaduct.proxy.rlwy.net',
-        'PORT': '40184',
+        'PASSWORD': 'ULPskRiPppoaSkXQMdZGKeFoVNNwAMFn',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '49911',
     }
 }
 
