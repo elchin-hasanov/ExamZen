@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-a%r3hy1s-_6jc!yj2x(6ib*9_d=ckqii7&wema9vcpus=hm@6_'
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['examzen.up.railway.app', '127.0.0.1', 'localhost']
 
