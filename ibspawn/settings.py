@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 CSRF_TRUSTED_ORIGINS = ['https://examzen-production.up.railway.app']
+CSRF_COOKIE_SECURE = True
 
 # Application definition
 
@@ -39,7 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main',
-    'corsheaders',
 ]
 
 
@@ -52,10 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
-
 ]
-CORS_ALLOWED_ORIGINS = ['*']
 
 
 ROOT_URLCONF = 'ibspawn.urls'
