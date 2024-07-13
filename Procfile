@@ -1,0 +1,1 @@
+web: gunicorn ibspawn.wsgi --log-file -

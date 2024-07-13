@@ -1,0 +1,132 @@
+{% extends 'main/layout.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExamZen - Practice Center</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: "Manrope", sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #2E3B55;
+            text-align: center;
+        }
+        .btn-container {
+            margin-top: 20px;
+        }
+        .btn-custom {
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 30px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .btn-custom-primary {
+            background-color: #2E3B55;
+            color: #fff;
+        }
+        .btn-custom-secondary {
+            background-color: #A0B4DF;
+            color: #fff;
+        }
+        .btn-custom:hover {
+            transform: translateY(-5px);
+        }
+        .section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            height: 90%;
+        }
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2E3B55;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .section-content {
+            font-size: 16px;
+            color: #333;
+        }
+        /* Styling for Font Awesome icons */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .1 {
+            margin-bottom: 10px;
+        }
+        ul li i {
+            color: #28a745; /* Green color for tick marks */
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title" style="margin-top: 50px;">Why Us?</div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="section">
+                    <div class="section-title">Features</div>
+                    <div class="section-content">
+                        <ul class="o">
+                            <li class="o"><i class="fas fa-check-circle"></i> Customizable practice tests tailored to your subjects and needs.</li>
+                            <li class="o"><i class="fas fa-check-circle"></i> Extensive question banks with a variety of difficulty levels.</li>
+                            <li class="o"><i class="fas fa-check-circle"></i> Real-time performance analytics to track your progress.</li>
+                            <li class="o"><i class="fas fa-check-circle"></i> Interactive interface for a seamless user experience.</li>
+                            <li class="o"><i class="fas fa-check-circle"></i> Accessible anytime, anywhere on any device.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="section">
+                    <div class="section-title">Benefits</div>
+                    <div class="section-content">
+                        <ul class="o">
+                            <li class="o"><i class="fas fa-check-circle"></i> Enhance your understanding of subjects through targeted practice.</li>
+                            <li class="o"><i class="fas fa-check-circle"></i> Boost confidence with simulated exam environments.</li>
+                            <li class="o"><i class="fas fa-check-circle"></i> Improve time management and exam-taking strategies.</li>
+                            <li class="o"><i class="fas fa-check-circle"></i> Prepare effectively with instant feedback on your performance.</li>
+                            <li class="o"><i class="fas fa-check-circle"></i> Stay motivated with clear goals and progress tracking.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-container text-center">
+            <button class="btn btn-custom btn-custom-primary" onclick="window.location.href='{% url 'main:test' %}?subject={{ subject }}'">Take a Test</button>
+            <button class="btn btn-custom btn-custom-secondary" onclick="window.location.href='{% url 'main:questionbank' %}?subject_name={{ subject }}'">QuestionBank</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+{% endblock %}

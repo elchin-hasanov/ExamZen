@@ -1,0 +1,98 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container mt-5">
+        <div class="correct-answers-badge">
+            <p>{{ paper1_instance.paper1_correct_answers }}</p>
+            <span>Correct Answers</span>
+        </div>
+
+    
+    {% if paper1_instance %}
+    <div class="mt-4" style="margin-bottom: 150px;">
+            <h3 class="mb-3" style="margin-top: 175px;">
+                Paper 1 Answers
+            </h3>
+        
+        <div class="card mb-3">
+            <div class="card-header">
+                Questions and Answers
+            </div>
+            <div class="card-body">
+                {% for question in paper1_instance.questions.all %}
+                <div class="mb-5">
+                    <h6>{{ forloop.counter }}. {{ question.text }}</h6>
+                    <p style="margin-top: 10px;"><strong>Correct Answer:</strong> {{ question.answer }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    
+    {% if paper2_instance %}
+    <div class="mt-4">
+        <h3 class="mb-3">
+            Paper 2 Answers
+        </h3>
+        
+        <div class="card mb-3">
+            <div class="card-header">
+                Questions and Answers
+            </div>
+            <div class="card-body">
+                {% for question in paper2_instance.questions.all %}
+                <div style="margin-bottom: 100px;">
+                    <h6>{{ forloop.counter }}. {{ question.text }}</h6>
+                    <p style="margin-top: 30px;"><strong>Correct Answer:</strong> {{ question.answer }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-6 mb-3">
+            <a href="{% url 'main:zens' %}" class="btn btn-danger btn-block">Return to Dashboard</a>
+        </div>
+    </div>
+</div>
+
+<style>
+.correct-answers-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 125px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #2e3b55;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    cursor: pointer;
+}
+
+.correct-answers-badge p {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.correct-answers-badge span {
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+</style>
+
+{% endblock %}

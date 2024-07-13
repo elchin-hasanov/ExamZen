@@ -1,0 +1,161 @@
+
+<!-- Description Modal -->
+<div class="modal fade" id="descriptionModal" tabindex="-1" role="dialog" aria-labelledby="descriptionModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="descriptionModalLabel">Exam Description</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <p>This exam contains questions related to {{ subject.name }}. It is a mere simulation of the exam, and carries practice purposes only. The time you have for the exam will be shown above on the timer. Click "Okay" to start the exam.</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary" id="okayButton">Okay</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Confirmation Modal -->
+<div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="confirmModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="confirmModalLabel">End Exam Confirmation</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <p>Are you sure you want to end the exam?</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-primary" id="confirmEndExamBtn">Confirm</button>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Timer Script -->
+<style>
+  .timer {
+      position: fixed;
+      margin-bottom: 40px;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #2e3b55;
+      padding: 10px;
+      width: 100%;
+      border-radius: 3px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0.1, 0.2);
+      z-index: 1000;
+      font-size: 17px;
+      color: whitesmoke;
+  }
+</style>
+
+<script>
+var timerInterval; // To hold the interval reference for timer
+
+function startTimer(duration, display) {
+  var timer = duration, minutes, seconds;
+  clearInterval(timerInterval); // Clear previous interval if any
+  timerInterval = setInterval(function () {
+    minutes = parseInt(timer / 60, 10);
+    seconds = parseInt(timer % 60, 10);
+
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    seconds = seconds < 10 ? "0" + seconds : seconds;
+
+    display.textContent = minutes + ":" + seconds;
+
+    if (--timer < 0) {
+      clearInterval(timerInterval); // Clear interval when timer reaches 0
+      timer = 0;
+      // Optionally, trigger end exam actions here when timer reaches 0
+    }
+  }, 1000);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  var subjectName = "{{ subject.name }}";
+  var duration;
+
+  switch (subjectName) {
+    case "History":
+      duration = 60 * 60; // 1 hour
+      break;
+    case "English":
+      duration = 105 * 60; // 1 hour 45 minutes
+      break;
+    case "Physics":
+      duration = 120 * 60; // 1 hour
+      break;
+    case "Math":
+      duration = 90 * 60; // 1 hour 30 minutes
+      break;
+  }
+
+  var display = document.querySelector('#timer');
+  var descriptionModal = new bootstrap.Modal(document.getElementById('descriptionModal'));
+  var confirmModal = new bootstrap.Modal(document.getElementById('confirmModal'));
+
+  // Show description modal before starting the exam
+  descriptionModal.show();
+
+  document.getElementById('okayButton').addEventListener('click', function() {
+    descriptionModal.hide();
+    startTimer(duration, display);
+
+    // Make the page fullscreen after user clicks okay
+    if (document.documentElement.requestFullscreen) {
+      document.documentElement.requestFullscreen();
+    }
+  });
+
+  document.getElementById('paper2-btn').addEventListener('click', function() {
+    document.getElementById('paper1-questions').style.display = 'none';
+    document.getElementById('paper2-questions').style.display = 'block';
+    descriptionModal.hide();
+    startTimer(duration, display);
+  });
+
+  document.getElementById('submit-paper2').addEventListener('click', function() {
+    // Show confirmation modal before ending the exam
+    confirmModal.show();
+  });
+
+  document.getElementById('confirmEndExamBtn').addEventListener('click', function() {
+    // Redirect to home page after confirmation
+    window.location.href = "{% url 'main:zens' %}";
+  });
+
+  // Event listener for End Exam button in all sections
+  document.getElementById('endExamBtn').addEventListener('click', function() {
+    // Show confirmation modal before ending the exam
+    confirmModal.show();
+  });
+
+  document.getElementById('endExamBtnPaper2').addEventListener('click', function() {
+    // Show confirmation modal before ending the exam
+    confirmModal.show();
+  });
+
+  // Additional event listener for the End Exam button in History and English sections
+  document.getElementById('endExamBtn').addEventListener('click', function() {
+    // Show confirmation modal before ending the exam
+    confirmModal.show();
+  });
+
+  // Handle confirmation of ending exam
+  document.getElementById('confirmEndExamBtn').addEventListener('click', function() {
+    // Redirect to home page after confirmation
+    window.location.href = "{% url 'main:zens' %}";
+  });
+
+});
+</script>

@@ -1,0 +1,76 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="profile-container">
+        <h1 class="text-center mb-4">{{ username }}</h1>
+
+        <div class="profile-details text-center mb-4">
+            <div class="profile-stats">
+                <p><strong>Total Points:</strong> {{ total_points }}</p>
+                <p><strong>Total Tests Taken:</strong> {{ total_tests }}</p>
+                <p><strong>Average Score:</strong> {{ average_score|floatformat:2 }}</p>
+            </div>
+        </div>
+
+        <h2 class="text-center mb-3">Recent Tests</h2>
+        <ul class="list-group">
+            {% for test in recent_tests %}
+            <li class="list-group-item">{{ test.subject.name }} - {{ test.get_paper_display }} ({{ test.created_at|date:"Y-m-d" }})</li>
+            {% endfor %}
+        </ul>
+
+        <!-- Logout Button -->
+        <div class="text-center mt-4">
+            <a href="{% url 'main:logout' %}" class="btn btn-primary">Logout</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .profile-container {
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        max-width: 850px;
+        margin: auto;
+    }
+
+    .profile-picture img {
+        border-radius: 50%;
+    }
+
+    .profile-upload {
+        margin-bottom: 20px; /* Adjust spacing between picture and upload form */
+    }
+
+    .profile-stats p {
+        font-size: 16px;
+        color: #2e3b55;
+        margin-bottom: 10px;
+    }
+
+    .list-group-item {
+        background: #f8f9fa;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+
+    .list-group-item:hover {
+        background: #2e3b55;
+        color: white;
+    }
+
+    .btn-primary {
+        background-color: #2e3b55;
+        border: none;
+    }
+
+    .btn-primary:hover {
+        background-color: #1c2536;
+    }
+</style>
+{% endblock %}

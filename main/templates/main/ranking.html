@@ -1,0 +1,55 @@
+{% extends 'main/layout.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="ranking-container">
+        <h1 class="text-center mb-4">Student Rankings</h1>
+        <p class="text-center text-muted mb-4">
+            *The current rankings are based on points earned from answering Physics Paper 1 questions. In the future, you will be able to earn points from other subjects as well.
+        </p>
+        <table class="table table-hover ranking-table">
+            <thead>
+                <tr style="background-color: #2e3b55; color: white;">
+                    <th scope="col">Rank</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for user in user_rankings %}
+                <tr>
+                    <th style="color: #000;">{{ user.rank }}</th>
+                    <td style="color: #000;">{{ user.username }}</td>
+                    <td style="color: #000;">{{ user.points }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    .ranking-container {
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .ranking-table th, .ranking-table td {
+        vertical-align: middle;
+    }
+    
+    .ranking-table th {
+        color: #fff;
+    }
+    
+    .ranking-table tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .ranking-table tbody tr:hover {
+        background-color: #ddd;
+    }
+</style>
+{% endblock %}

@@ -1,0 +1,91 @@
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Custom styles for the login form */
+    body {
+      background-color: #f5f5f5; /* Light grey background color */
+      font-family: 'Poppins', sans-serif; /* Minimalist font */
+      color: #333; /* Main text color */
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding-top: 100px;
+    }
+    .primary-heading {
+      color: #222; /* Darker color for contrast */
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .form-group label {
+      color: #222; /* Darker color for labels */
+    }
+    .form-control {
+      border-radius: 10px;
+      background-color: #fff; /* White background for input fields */
+      border-color: #4C647A; /* Light green border for input fields */
+      color: #333; /* Dark text color for input fields */
+    }
+    .btn-primary {
+      background-color: #2e3b55; /* Dark blue button color */
+      border: none;
+      border-radius: 25px;
+      color: #fff; /* White text color */
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 10px 30px;
+      margin: 20px auto 10px; /* Centered button and adjusted margin */
+      display: block; /* Ensures button is centered */
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .btn-primary:hover {
+      background-color: #374a5e; /* Darker shade on hover */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+    }
+    p a {
+      color: #2e3b55; /* Dark blue color for links */
+      text-decoration: underline; /* Added underline for better link indication */
+    }
+    p a:hover {
+      color: #4c647a; /* Highlight color on hover */
+      text-decoration: none; /* Removed underline on hover for clarity */
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="primary-heading">Login to Your Account</h1>
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="{{ form.username.id_for_label }}">Username</label>
+            <input type="text" name="{{ form.username.name }}" oninput="sanitizeUsername(event)" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="{{ form.password.id_for_label }}">Password</label>
+            <input type="password" name="{{ form.password.name }}" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+    <p style="margin-top: 20px; text-align: center;">Don't have an account? <a href="{% url 'main:signup' %}">Sign up here</a></p>
+</div>
+<script>
+    function sanitizeUsername(event) {
+        var input = event.target;
+        var sanitizedValue = input.value.toLowerCase().replace(/[^a-z0-9]/g, '');
+        input.value = sanitizedValue;
+    }
+</script>
+</body>
+</html>
+{% endblock %}

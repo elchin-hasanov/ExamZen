@@ -1,0 +1,116 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExamZen</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://www.maths.nottingham.ac.uk/plp/pmadw/LaTeXMathML.js"></script>
+  <link rel="icon" type="" href="{% static 'images/logonobg.png' %}">
+  <style>
+    /* Custom styles for the navbar */
+    body {
+      font-family: "Manrope", sans-serif;
+    }
+    .navbar-brand {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff; /* White text color */
+    }
+    .navbar-nav .nav-link {
+      font-size: 18px;
+      color: #fff; /* White text color */
+      font-weight: bold; /* Bold text */
+    }
+    .navbar-nav .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      transition: width 0.3s, background-color 0.3s; /* Smooth transition for line width and background color */
+    }
+    .navbar-nav .nav-link:hover::after {
+      width: 100%; /* Expand the line on hover */
+    }
+    .navbar-nav .nav-item {
+      margin-left: 20px;
+    }
+    .navbar-toggler .navbar-toggle-icon.nav-link::after {
+      border: none;
+    }
+    .navbar-dark {
+      background-color: #2e3b55; /* Elegant dark blue color */
+    }
+    /* Profile Picture Style */
+    .profile-picture {
+      display: flex;
+      align-items: center;
+    }
+    .profile-picture img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    /* Username Style */
+    .profile-username {
+      color: #fff;
+      margin-left: 10px; /* Adjust spacing between image and username */
+    }
+    .profile-picture img {
+        border: 2px solid #00ffa6;/* Blue border */
+    }
+  </style>
+</head>
+
+
+<body>
+  {% if not request.path == '/test/' %}
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+  <div class="container">
+    <a class="navbar-brand" href="{% url 'main:home' %}">ExamZen</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto align-items-center">
+        {% if user.is_authenticated %}
+        <li class="nav-item profile-picture">
+          <a class="nav-link" href="{% url 'main:profile' %}">Profile</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'main:rankings' %}">Rankings</a>
+          </li>          
+        {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'main:login' %}">Log In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'main:signup' %}">Sign Up</a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>
+{% endif %}
+
+{% block content %}
+
+{% endblock %}
+
+<!-- jQuery and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

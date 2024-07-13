@@ -1,0 +1,118 @@
+{% extends 'main/layout.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExamZen - Question Answer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+        }
+        .content-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            margin: 50px auto;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2E3B55;
+            margin-bottom: 20px;
+        }
+        .question-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .choices-list {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 20px;
+        }
+        .choices-list li {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .answer-button {
+            margin-bottom: 20px;
+        }
+        .answer-button button {
+            font-size: 16px;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+        .answer-button button:hover {
+            background-color: #2E3B55;
+        }
+        .answer-button button:active {
+            transform: translateY(1px);
+        }
+        .answer-text {
+            font-size: 16px;
+            color: #555;
+            display: none;
+            margin-top: 20px;
+        }
+        .back-button {
+            font-size: 18px;
+            color: #2E3B55;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            border: 1px solid #2E3B55;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+            margin-top: 20px;
+            margin-left: 20px;
+
+        }
+        .back-button:hover {
+            background-color: #2E3B55;
+            color: white;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <a href="#" onclick="history_back()" class="back-button">&larr; Back</a>
+    <div class="content-container">
+        <h1 class="title">Question</h1>
+        <p class="question-text">{{ question.text|safe }}</p>
+        <ul class="choices-list">
+            {% for choice in choices %}
+                <li>{{ choice|safe }}</li>
+            {% endfor %}
+        </ul>
+        <div class="answer-button">
+            <button class="btn btn-primary" onclick="toggleAnswer()">Show/Hide Answer</button>
+        </div>
+        <h2 class="title">Answer</h2>
+        <p class="answer-text">{{ question.answer|safe }}</p>
+    </div>
+    <script>
+        function toggleAnswer() {
+            var answer = document.querySelector('.answer-text');
+            if (answer.style.display === 'none') {
+                answer.style.display = 'block';
+            } else {
+                answer.style.display = 'none';
+            }
+        }
+
+        function history_back() {
+            window.history.back();
+        } 
+    </script>
+</body>
+</html>
+{% endblock %}
