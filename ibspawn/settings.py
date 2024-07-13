@@ -92,12 +92,15 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = ['https://examzen.up.railway.app']
+
+# Adjust these settings based on your deployment environment
 CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
 
 LOGIN_URL = '/login'
 
-# Security settings for production
-SECURE_SSL_REDIRECT = True
+# Security settings
+SECURE_SSL_REDIRECT = False  # Set to True only if not handled by Railway
 SECURE_HSTS_SECONDS = 3600
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SECURE_HSTS_PRELOAD = True
