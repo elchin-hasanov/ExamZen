@@ -30,8 +30,6 @@ ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = ['https://examzen-production.up.railway.app']
 CSRF_COOKIE_SECURE = True
 
-# Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -41,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main',
 ]
-
 
 
 MIDDLEWARE = [
@@ -75,7 +72,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'ibspawn.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
@@ -85,10 +81,6 @@ WSGI_APPLICATION = 'ibspawn.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-
-
-# Password validation
-# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -105,10 +97,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
-# Internationalization
-# https://docs.djangoproject.com/en/4.0/topics/i18n/
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
@@ -117,10 +105,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/4.0/howto/static-files/
-
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
@@ -128,20 +112,7 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
-
-# Default primary key field type
-# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
-
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-# ALLOWED_HOSTS = [
-#     'web-production-39c7.up.railway.app',
-#     '127.0.0.1',
-#     '127.0.0.1:8000',
-#     'www.dunyascience.com'
-# ]
-# CSRF_COOKIE_SECURE = True
-# CSRF_TRUSTED_ORIGINS=['https://web-production-39c7.up.railway.app', 'https://www.dunyascience.com']
 
 DATABASES = {
     'default': { 
