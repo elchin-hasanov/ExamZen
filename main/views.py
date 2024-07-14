@@ -39,6 +39,9 @@ def login_view(request):
                 return redirect('main:zens')
             else:
                 messages.error(request, 'Invalid username or password.')
+                print("Invalid login attempt")
+        else:
+            print("Form is not valid")
     else:
         form = LoginForm()
     return render(request, 'main/login.html', {'form': form})
@@ -50,10 +53,13 @@ def signup_view(request):
             user = form.save()
             user = authenticate(username=form.cleaned_data['username'], password=form.cleaned_data['password1'])
             login(request, user)
-            return redirect('main:home') 
+            return redirect('main:home')
+        else:
+            print("Form is not valid")
     else:
         form = SignUpForm()
     return render(request, 'main/signup.html', {'form': form})
+
 
 @login_required
 def logout_view(request):

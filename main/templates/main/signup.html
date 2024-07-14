@@ -77,7 +77,7 @@
 
     <div class="container">
         <h1 class="primary-heading">Sign Up to Your Account</h1>
-        <form method="post">
+        <form method="post" action="{% url 'main:signup' %}" >
             {% csrf_token %}
             <div class="form-group">
                 <label for="{{ form.username.id_for_label }}">Username</label>

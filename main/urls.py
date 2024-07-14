@@ -20,5 +20,4 @@ urlpatterns = [
     path('profile/', views.profile, name='profile'),
     path('rankings/', views.rankings, name="rankings"),
     
-
 ]
