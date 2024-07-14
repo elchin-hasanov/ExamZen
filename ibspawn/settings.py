@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-a%r3hy1s-_6jc!yj2x(6ib*9_d=ckqii7&wema9vcpus=hm@6_'
 
-DEBUG = True
+DEBUG = False  # Set to True temporarily if needed
 
 ALLOWED_HOSTS = ['examzen.up.railway.app', '127.0.0.1', 'localhost']
 
@@ -16,7 +16,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'main',
+    'main',  # Your app
 ]
 
 MIDDLEWARE = [
@@ -51,7 +51,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'ibspawn.wsgi.application'
 
 DATABASES = {
-    'default': { 
+    'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
@@ -93,14 +93,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = ['https://examzen.up.railway.app']
 
-# Adjust these settings based on your deployment environment
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 
 LOGIN_URL = '/login'
 
 # Security settings
-SECURE_SSL_REDIRECT = False  # Set to True only if not handled by Railway
+SECURE_SSL_REDIRECT = False  # Adjust based on your deployment environment
 SECURE_HSTS_SECONDS = 3600
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SECURE_HSTS_PRELOAD = True
