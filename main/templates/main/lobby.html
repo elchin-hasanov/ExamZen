@@ -119,8 +119,8 @@
         </div>
 
         <div class="btn-container text-center">
-            <button class="btn btn-custom btn-custom-primary" onclick="window.location.href='{% url 'main:test' %}?subject={{ subject }}'">Take a Test</button>
-            <button class="btn btn-custom btn-custom-secondary" onclick="window.location.href='{% url 'main:questionbank' %}?subject_name={{ subject }}'">QuestionBank</button>
+            <button class="btn btn-custom btn-custom-primary" onclick="window.location.href='{% url 'test' %}?subject={{ subject }}'">Take a Test</button>
+            <button class="btn btn-custom btn-custom-secondary" onclick="window.location.href='{% url 'questionbank' %}?subject_name={{ subject }}'">QuestionBank</button>
         </div>
     </div>
 

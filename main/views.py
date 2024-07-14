@@ -36,7 +36,7 @@ def login_view(request):
             user = authenticate(request, username=username, password=password)
             if user is not None:
                 login(request, user)
-                return redirect('main:zens')
+                return redirect('zens')
             else:
                 messages.error(request, 'Invalid username or password.')
                 print("Invalid login attempt")
@@ -53,7 +53,7 @@ def signup_view(request):
             user = form.save()
             user = authenticate(username=form.cleaned_data['username'], password=form.cleaned_data['password1'])
             login(request, user)
-            return redirect('main:home')
+            return redirect('zens')
         else:
             print("Form is not valid")
     else:
@@ -64,7 +64,7 @@ def signup_view(request):
 # @login_required
 def logout_view(request):
     logout(request)
-    return redirect('main:home')
+    return redirect('home')
 
 # @login_required
 def zen(request):
@@ -154,7 +154,7 @@ def test(request):
                         question.choices_list = question.choices.split('\\n') if question.choices else []
             return render(request, 'main/test.html', context)
 
-    return redirect('main:zens')  # Default redirect if subject_name is missing or no valid context
+    return redirect('zens')  # Default redirect if subject_name is missing or no valid context
 
 # @login_required
 def submit_exam(request):
@@ -192,7 +192,7 @@ def submit_exam(request):
 
         return render(request, 'main/submit_exam.html', context)
 
-    return redirect('main:zens')
+    return redirect('zens')
 
 def rankings(request):
     # Calculate rankings for all users

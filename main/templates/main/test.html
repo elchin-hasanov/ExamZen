@@ -27,7 +27,7 @@
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-md-6 mb-3">
-                <a href="{% url 'main:zens' %}" class="btn btn-danger btn-block">End the Exam</a>
+                <a href="{% url 'zens' %}" class="btn btn-danger btn-block">End the Exam</a>
             </div>
         </div>
     
@@ -51,12 +51,12 @@
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-md-6 mb-3">
-                <a href="{% url 'main:zens' %}" class="btn btn-danger btn-block">End the Exam</a>
+                <a href="{% url 'zens' %}" class="btn btn-danger btn-block">End the Exam</a>
             </div>
         </div>
     
     {% else %}
-        <form method="post" action="{% url 'main:submit_exam' %}">
+        <form method="post" action="{% url 'submit_exam' %}">
             {% csrf_token %}
             {% if paper == '1' %}
                 <input type="hidden" name="test_instance_id" value="{{ test_instance_paper1.id }}">
