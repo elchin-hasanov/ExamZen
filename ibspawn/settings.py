@@ -6,7 +6,8 @@ SECRET_KEY = 'django-insecure-a%r3hy1s-_6jc!yj2x(6ib*9_d=ckqii7&wema9vcpus=hm@6_
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['examzen.up.railway.app', '127.0.0.1','127.0.0.1:8000',]
+# ALLOWED_HOSTS = ['examzen.up.railway.app', '127.0.0.1','127.0.0.1:8000',]
+ALLOWED_HOSTS=['*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
