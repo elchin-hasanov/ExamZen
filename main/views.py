@@ -61,21 +61,21 @@ def signup_view(request):
     return render(request, 'main/signup.html', {'form': form})
 
 
-@login_required
+# @login_required
 def logout_view(request):
     logout(request)
     return redirect('main:home')
 
-@login_required
+# @login_required
 def zen(request):
     return render(request, 'main/zens.html')
 
-@login_required
+# @login_required
 def lobby(request):
     subject = request.GET.get('subject', '')
     return render(request, 'main/lobby.html', {'subject': subject})
 
-@login_required
+# @login_required
 def questionbank(request):
     subject_name = request.GET.get('subject_name', '')
     if subject_name:
@@ -85,7 +85,7 @@ def questionbank(request):
         questions = Question.objects.all()  # Handle if no subject_name provided
     return render(request, 'main/questionbank.html', {'questions': questions, 'subject_name': subject_name})
 
-@login_required
+# @login_required
 def question_answer(request, question_id):
     question = get_object_or_404(Question, id=question_id)
     choices = question.choices.split('\\n') if question.choices else []
@@ -93,7 +93,7 @@ def question_answer(request, question_id):
 
 
 
-@login_required
+# @login_required
 def test(request):
     subject_name = request.GET.get('subject', '')
     paper = request.GET.get('paper', '1')
@@ -156,7 +156,7 @@ def test(request):
 
     return redirect('main:zens')  # Default redirect if subject_name is missing or no valid context
 
-@login_required
+# @login_required
 def submit_exam(request):
     if request.method == 'POST':
         paper1_instance = Test.objects.filter(user=request.user, paper='1').order_by('-created_at').first()
@@ -212,7 +212,7 @@ def rankings(request):
     
     return render(request, 'main/ranking.html', context)
 
-@login_required
+# @login_required
 def profile(request):
     user = request.user
     recent_tests = Test.objects.filter(user=user).order_by('-created_at')[:5]
