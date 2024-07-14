@@ -32,96 +32,85 @@
         </div>
     
     {% elif subject.name == "English" %}
-        <form method="post" action="{% url 'submit_exam' %}">
-            {% csrf_token %}
-            <div>
-                {% for question in questions %}
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <p class="card-text">{{ forloop.counter }}. {{ question.text }}</p>
-                            <div class="radio-toolbar">
-                                {% for choice in question.choices_list %}
-                                    <div class="form-check">
-                                        <input class="form-check-input custom-radio" type="radio" id="choice{{ question.id }}_{{ forloop.counter }}" name="answers_{{ question.id }}" value="{{ choice }}" required>
-                                        <label class="form-check-label custom-radio-label" for="choice{{ question.id }}_{{ forloop.counter }}">{{ choice }}</label>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                            {% if question.errors %}
-                                <div class="text-danger">{{ question.errors }}</div>
-                            {% endif %}
+        <div>
+            {% for question in questions %}
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <p class="card-text">{{ forloop.counter }}. {{ question.text }}</p>
+                        <div class="radio-toolbar">
+                            {% for choice in question.choices_list %}
+                                <div class="form-check">
+                                    <input class="form-check-input custom-radio" type="radio" id="choice{{ question.id }}_{{ forloop.counter }}" name="answers_{{ question.id }}" value="{{ choice }}" required>
+                                    <label class="form-check-label custom-radio-label" for="choice{{ question.id }}_{{ forloop.counter }}">{{ choice }}</label>
+                                </div>
+                            {% endfor %}
                         </div>
                     </div>
-                {% endfor %}
-            </div>
-            <div class="row justify-content-center mt-4">
-                <div class="col-md-6 mb-3">
-                    <button type="submit" class="btn btn-primary btn-block" style="background-color: #2e3b55;border: none;">Submit The Exam</button>
                 </div>
+            {% endfor %}
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6 mb-3">
+                <a href="{% url 'zens' %}" class="btn btn-danger btn-block">End the Exam</a>
             </div>
-        </form>
+        </div>
     
     {% else %}
         <form method="post" action="{% url 'submit_exam' %}">
             {% csrf_token %}
-            <input type="hidden" name="test_instance_id" value="{{ test_instance_paper1.id }}">
-            <div>
-                {% for question in questions_paper1 %}
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <p class="card-text">{{ forloop.counter }}. {{ question.text }}</p>
-                            <div class="radio-toolbar">
-                                {% for choice in question.choices_list %}
-                                    <div class="form-check">
-                                        <input class="form-check-input custom-radio" type="radio" id="choice{{ question.id }}_{{ forloop.counter }}" name="answers_{{ question.id }}" value="{{ choice }}" required>
-                                        <label class="form-check-label custom-radio-label" for="choice{{ question.id }}_{{ forloop.counter }}">{{ choice }}</label>
-                                    </div>
-                                {% endfor %}
+            {% if paper == '1' %}
+                <input type="hidden" name="test_instance_id" value="{{ test_instance_paper1.id }}">
+                <div>
+                    {% for question in questions_paper1 %}
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <p class="card-text">{{ forloop.counter }}. {{ question.text }}</p>
+                                <div class="radio-toolbar">
+                                    {% for choice in question.choices_list %}
+                                        <div class="form-check">
+                                            <input class="form-check-input custom-radio" type="radio" id="choice{{ question.id }}_{{ forloop.counter }}" name="answers_{{ question.id }}" value="{{ choice }}" required>
+                                            <label class="form-check-label custom-radio-label" for="choice{{ question.id }}_{{ forloop.counter }}">{{ choice }}</label>
+                                        </div>
+                                    {% endfor %}
+                                </div>
                             </div>
-                            {% if question.errors %}
-                                <div class="text-danger">{{ question.errors }}</div>
-                            {% endif %}
                         </div>
-                    </div>
-                {% endfor %}
-            </div>
-            <div class="row justify-content-center mt-4">
-                <div class="col-md-6 mb-1">
-                    <h1 class="text-center mb-5" style="margin-top: 15px; font-size: 35px;">Paper 2 </h1>
+                    {% endfor %}
                 </div>
-            </div>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-md-6 mb-1">
+                        <h1 class="text-center mb-5" style="margin-top: 15px; font-size: 35px;">Paper 2 </h1>
+                    </div>
+                </div>
             
-            <input type="hidden" name="test_instance_id" value="{{ test_instance_paper2.id }}">
-            <div>
-                {% for question in questions_paper2 %}
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <p class="card-text">{{ forloop.counter }}. {{ question.text }}</p>
-                            <div class="radio-toolbar">
-                                {% for choice in question.choices_list %}
-                                    <div class="form-check">
-                                        <input class="form-check-input custom-radio" type="radio" id="choice{{ question.id }}_{{ forloop.counter }}" name="answers_{{ question.id }}" value="{{ choice }}">
-                                        <label class="form-check-label custom-radio-label" for="choice{{ question.id }}_{{ forloop.counter }}">{{ choice }}</label>
-                                    </div>
-                                {% endfor %}
+                <input type="hidden" name="test_instance_id" value="{{ test_instance_paper2.id }}">
+                <div>
+                    {% for question in questions_paper2 %}
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <p class="card-text">{{ forloop.counter }}. {{ question.text }}</p>
+                                <div class="radio-toolbar">
+                                    {% for choice in question.choices_list %}
+                                        <div class="form-check">
+                                            <input class="form-check-input custom-radio" type="radio" id="choice{{ question.id }}_{{ forloop.counter }}" name="answers_{{ question.id }}" value="{{ choice }}">
+                                            <label class="form-check-label custom-radio-label" for="choice{{ question.id }}_{{ forloop.counter }}">{{ choice }}</label>
+                                        </div>
+                                    {% endfor %}
+                                </div>
                             </div>
-                            {% if question.errors %}
-                                <div class="text-danger">{{ question.errors }}</div>
-                            {% endif %}
                         </div>
-                    </div>
-                {% endfor %}
-            </div>
-            <!-- No need to show 'Move to Paper 2' button on Paper 2 page -->
-            <div class="row justify-content-center mt-4">
-                <div class="col-md-6 mb-3">
-                    <button type="submit" class="btn btn-primary btn-block" style="background-color: #2e3b55;border: none;">Submit The Exam</button>
+                    {% endfor %}
                 </div>
-            </div>
+                <!-- No need to show 'Move to Paper 2' button on Paper 2 page -->
+                <div class="row justify-content-center mt-4">
+                    <div class="col-md-6 mb-3">
+                        <button type="submit" class="btn btn-primary btn-block" style="background-color: #2e3b55;border: none;">Submit The Exam</button>
+                    </div>
+                </div>
         </form>
     {% endif %}
 </div>
-{% endblock %}
+{% endif %}
 <style>
     .radio-toolbar {
         display: flex;
