@@ -79,23 +79,23 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CSRF_TRUSTED_ORIGINS = ['https://examzen.up.railway.app', 'https://examzen.net']
 CSRF_COOKIE_SECURE = True
 
-# DATABASES = {
-#     'default': { 
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'railway',
-#         'USER': 'postgres',
-#         'PASSWORD': 'VCvWwFygeNsgJIkKhsmCRXElTLvOhEqo',
-#         'HOST': 'monorail.proxy.rlwy.net',
-#         'PORT': '26547',
-#     }
-# }
-
 DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
+    'default': { 
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'VCvWwFygeNsgJIkKhsmCRXElTLvOhEqo',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '26547',
     }
+}
+
+# DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.sqlite3',
+#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#         }
+#     }
 
 LOGIN_URL='/login'
 
