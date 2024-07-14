@@ -19,7 +19,6 @@ urlpatterns = [
     path('submit-exam/', views.submit_exam, name='submit_exam'),
     path('profile/', views.profile, name='profile'),
     path('rankings/', views.rankings, name="rankings"),
-    path('admin/', admin.site.urls),
+    
 
-
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]
