@@ -1,0 +1,125 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExamZen - Zen Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: "Manrope", sans-serif;
+      background-color: #ffffff;
+      color: #222;
+      user-select: none;
+      margin: 0;
+    }
+    .zen-section {
+      display: table;
+      width: 100%;
+      height: calc(100vh - 175px); /* Adjusted height */
+      background-color: #FFFFFF;
+      text-align: center;
+      padding-top: 50px; /* Adjusted padding top */
+      padding-bottom: 50px; /* Adjusted padding bottom */
+    }
+    .zen-table-cell {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .zen-img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 50%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+    .zen-img:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    }
+    .zen-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #222;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #222; /* Dark footer background */
+      color: #E0E5EC;
+      padding:5px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 999; /* Ensure footer stays above content */
+    }
+    .footer-links a {
+      color: #E0E5EC;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+    .footer-links a:hover {
+      color: #A0B4DF;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .zen-img {
+        max-width: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="zen-section">
+    <div class="zen-table-cell">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 mb-4">
+            <a href="{% url 'main:lobby' %}?subject=English">
+              <img src="{% static 'images/3.png' %}" alt="Zen Image 1" class="zen-img">
+            </a>
+            <h2 class="zen-title">English</h2>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <a href="{% url 'main:lobby' %}?subject=Physics">
+              <img src="{% static 'images/physics.png' %}" alt="Zen Image 1" class="zen-img">
+            </a>
+            <h2 class="zen-title">Physics</h2>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <a href="{% url 'main:lobby' %}?subject=History">
+              <img src="{% static 'images/1.png' %}" alt="Zen Image 1" class="zen-img">
+            </a>
+            <h2 class="zen-title">History</h2>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <a href="{% url 'main:lobby' %}?subject=Math">
+              <img src="{% static 'images/math.png' %}" alt="Zen Image 1" class="zen-img">
+            </a>
+            <h2 class="zen-title">Math</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="text-center">
+    <div class="container">
+      <div class="footer-links mb-3">
+        <!-- <a class="btn btn-link btn-floating btn-lg text-body m-1" href="mailto:elchin.hasanov@dunyaschool.az" target="_blank" role="button" >
+          <i class="fa fa-google" style="font-size:24px; color: #E0E5EC;">1ds</i>
+        </a> -->
+      </div>
+      <p>&copy; 2024 ExamZen. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+{% endblock %}
