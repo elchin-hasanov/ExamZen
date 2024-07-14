@@ -76,7 +76,7 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-CSRF_TRUSTED_ORIGINS = ['https://examzen.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://examzen.up.railway.app', 'https://examzen.net']
 CSRF_COOKIE_SECURE = True
 
 DATABASES = {
