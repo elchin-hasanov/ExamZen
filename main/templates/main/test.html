@@ -163,5 +163,33 @@
     }
 </style>
 
+<script>
+    document.getElementById('exam-form').addEventListener('submit', function(event) {
+        var allAnswered = true;
+        var radios = document.querySelectorAll('input[type="radio"]');
+        var names = {};
+        radios.forEach(function(radio) {
+            if (!names[radio.name]) {
+                names[radio.name] = false;
+            }
+            if (radio.checked) {
+                names[radio.name] = true;
+            }
+        });
+        
+        for (var name in names) {
+            if (!names[name]) {
+                allAnswered = false;
+                break;
+            }
+        }
+        
+        if (!allAnswered) {
+            event.preventDefault();
+            document.getElementById('warning-message').style.display = 'block';
+        }
+    });
+</script>
+
 {% include 'main/style.html' %}
 {% endblock %}
