@@ -68,7 +68,7 @@
                                 <div class="radio-toolbar">
                                     {% for choice in question.choices_list %}
                                         <div class="form-check">
-                                            <input class="form-check-input custom-radio" type="radio" id="choice{{ question.id }}_{{ forloop.counter }}" name="answers_{{ question.id }}" value="{{ choice }}" required>
+                                            <input class="form-check-input custom-radio" type="radio" id="choice{{ question.id }}_{{ forloop.counter }}" name="answers_{{ question.id }}" value="{{ choice }}">
                                             <label class="form-check-label custom-radio-label" for="choice{{ question.id }}_{{ forloop.counter }}">{{ choice }}</label>
                                         </div>
                                     {% endfor %}
