@@ -5,14 +5,14 @@
 <div class="container mt-5">
     <!-- Button to open the formula booklet -->
     {% if subject.name == "Physics" or subject.name ==  "Math" %}
-    <div class="fixed-top mt-5">
+    <div class=" justify-content-start fixed-top mt-5">
         <button class="btn btn-secondary mb-3" style="background-color:#2e3b55; padding: 10px 30px; margin-top: 50px;" onclick="openFormulaBooklet()">Formula Booklet</button>
     </div>
     {% endif %}
     {% if subject.name == "History" or subject.name ==  "English" %}
-        <h1 class="text-center mb-5" style="margin-top: 50px; font-size: 35px;">Generated Paper 2 </h1>
+        <h1 class="text-center mb-5" style="margin-top: 100px; font-size: 35px;">Generated Paper 2 </h1>
     {% else %}
-        <h1 class="text-center mb-5" style="margin-top: 50px; font-size: 35px;">Generated Paper 1 </h1>
+        <h1 class="text-center mb-5" style="margin-top: 100px; font-size: 35px;">Generated Paper 1 </h1>
     {% endif %}
     <div id="timer" class="timer text-center mb-4"></div>
     
