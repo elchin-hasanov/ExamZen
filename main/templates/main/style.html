@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('confirmEndExamBtn').addEventListener('click', function() {
     // Redirect to home page after confirmation
-    window.location.href = "{% url 'zens' %}";
+    window.location.href = "{% url 'main:zens' %}";
   });
 
   // Event listener for End Exam button in all sections
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Handle confirmation of ending exam
   document.getElementById('confirmEndExamBtn').addEventListener('click', function() {
     // Redirect to home page after confirmation
-    window.location.href = "{% url 'zens' %}";
+    window.location.href = "{% url 'main:zens' %}";
   });
 
 });

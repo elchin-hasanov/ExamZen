@@ -79,7 +79,7 @@
                     <tbody>
                         {% for question in questions %}
                         {% if subject_name == "Math" or subject_name == "Physics" %}
-                        <tr class="clickable-row" data-href="{% url 'question_answer' question.id %}">
+                        <tr class="clickable-row" data-href="{% url 'main:question_answer' question.id %}">
                             <td>{{ forloop.counter }}</td>
                             <td>{{ question.topic }}</td>
                             <td>{{ question.paper }}</td>

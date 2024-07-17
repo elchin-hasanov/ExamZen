@@ -63,7 +63,7 @@ def signup_view(request):
 @login_required
 def logout_view(request):
     logout(request)
-    return redirect('home')
+    return redirect('main:home')
 
 @login_required
 def zen(request):
@@ -151,7 +151,7 @@ def test(request):
                         question.choices_list = question.choices.split('\\n') if question.choices else []
             return render(request, 'main/test.html', context)
 
-    return redirect('zens')  # Default redirect if subject_name is missing or no valid context
+    return redirect('main:zens')  # Default redirect if subject_name is missing or no valid context
 
 @login_required
 def submit_exam(request):
@@ -189,7 +189,7 @@ def submit_exam(request):
 
         return render(request, 'main/submit_exam.html', context)
 
-    return redirect('zens')
+    return redirect('main:zens')
 
 def rankings(request):
     # Calculate rankings for all users
