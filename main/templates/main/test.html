@@ -3,6 +3,11 @@
 
 {% block content %}
 <div class="container mt-5">
+    <!-- Button to open the formula booklet -->
+    <div class="d-flex justify-content-start">
+        <button class="btn btn-secondary mb-3" onclick="openFormulaBooklet()">Formula Booklet</button>
+    </div>
+    
     {% if subject.name == "History" or subject.name ==  "English" %}
         <h1 class="text-center mb-5" style="margin-top: 100px; font-size: 35px;">Generated Paper 2 </h1>
     {% else %}
@@ -111,6 +116,35 @@
     {% endif %}
 </div>
 {% endif %}
+
+<!-- Modal for formula booklet -->
+<div class="modal fade" id="formulaModal" tabindex="-1" aria-labelledby="formulaModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="formulaModalLabel">Formula Booklet</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <iframe src="{% static 'formulas.pdf' %}" width="100%" height="600px"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Include Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    function openFormulaBooklet() {
+        $('#formulaModal').modal('show');
+    }
+</script>
+
 <style>
     .radio-toolbar {
         display: flex;
