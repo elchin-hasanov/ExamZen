@@ -83,7 +83,7 @@
                             <td>{{ forloop.counter }}</td>
                             <td>{{ question.topic }}</td>
                             <td>{{ question.paper }}</td>
-                            <td><a href="{% url 'main:question_answer' question.id %}" style="text-decoration: none;">{{ question.text }}</a></td>
+                            <td><a href="{% url 'main:question_answer' question.id %}" style="text-decoration: none;color: #555;">{{ question.text }}</a></td>
                         </tr>
                         {% else %}
                         <tr>
