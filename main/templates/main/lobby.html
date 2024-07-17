@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         body {
-            font-family: "Manrope", sans-serif;
+            font-family: "Poppins", sans-serif;
             background-color: #f5f5f5;
             color: #333;
+            display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
@@ -50,13 +51,13 @@
             transform: translateY(-5px);
         }
         .section {
-            margin: 20px;
+            margin: 20px auto; /* Center section horizontally */
             padding: 20px;
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             width: 90%;
-            height: 90%;
+            max-width: 600px; /* Limit maximum width */
         }
         .section-title {
             font-size: 24px;
@@ -74,7 +75,7 @@
             list-style-type: none;
             padding: 0;
         }
-        .1 {
+        ul li {
             margin-bottom: 10px;
         }
         ul li i {
@@ -87,17 +88,16 @@
 
     <div class="container">
         <div class="title" style="margin-top: 50px;">Some Info Before You Start!</div>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="section">
-                    <div class="section-title">Benefits</div>
                     <div class="section-content">
-                        <ul class="o">
-                            <li class="o"><i class="fas fa-check-circle"></i> Enhance your understanding of subjects through targeted practice.</li>
-                            <li class="o"><i class="fas fa-check-circle"></i> Boost confidence with simulated exam environments.</li>
-                            <li class="o"><i class="fas fa-check-circle"></i> Improve time management and exam-taking strategies.</li>
-                            <li class="o"><i class="fas fa-check-circle"></i> Prepare effectively with instant feedback on your performance.</li>
-                            <li class="o"><i class="fas fa-check-circle"></i> Stay motivated with clear goals and progress tracking.</li>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Enhance your understanding of subjects through targeted practice.</li>
+                            <li><i class="fas fa-check-circle"></i> Boost confidence with simulated exam environments.</li>
+                            <li><i class="fas fa-check-circle"></i> Improve time management and exam-taking strategies.</li>
+                            <li><i class="fas fa-check-circle"></i> Prepare effectively with instant feedback on your performance.</li>
+                            <li><i class="fas fa-check-circle"></i> Stay motivated with clear goals and progress tracking.</li>
                         </ul>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
 
         <div class="btn-container text-center">
             <button class="btn btn-custom btn-custom-primary" onclick="window.location.href='{% url 'main:test' %}?subject={{ subject }}'">Take a Test</button>
-            <button class="btn btn-custom btn-custom-secondary" onclick="window.location.href='{% url 'main:questionbank' %}?subject_name={{ subject }}'">QuestionBank</button>
+            <button class="btn btn-custom btn-custom-secondary" onclick="window.location.href='{% url 'main:questionbank' %}?subject_name={{ subject }}'">Question Bank</button>
         </div>
     </div>
 
