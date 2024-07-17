@@ -5,7 +5,7 @@
 <div class="container mt-5">
     <!-- Button to open the formula booklet -->
     {% if subject.name == "Physics" or subject.name ==  "Math" %}
-    <div class="d-flex justify-content-start" style="position: fixed;">
+    <div class="fixed-top mt-5">
         <button class="btn btn-secondary mb-3" style="background-color:#2e3b55; padding: 10px 30px; margin-top: 50px;" onclick="openFormulaBooklet()">Formula Booklet</button>
     </div>
     {% endif %}
