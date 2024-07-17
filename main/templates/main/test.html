@@ -6,7 +6,9 @@
 
 <div class="container mt-5">
     <div class="fixed-top mt-5"  style="margin-left: 40px;">
-        <button class="btn btn-secondary mb-3" style="background-color:#2e3b55; padding: 10px 40px; margin-top: 50px;" onclick="openFormulaBooklet()">Formula Booklet</button>
+        <button class="btn btn-secondary mb-3" style="background-color:#2e3b55; padding: 10px 40px; margin-top: 50px;" onclick="openFormulaBooklet()">
+            <i class="fas fa-file-alt"></i>
+        </button>
     </div>
     <!-- Button to open the formula booklet -->
     {% if subject.name == "Physics" or subject.name ==  "Math" %}
