@@ -36,7 +36,7 @@ def login_view(request):
             user = authenticate(request, username=username, password=password)
             if user is not None:
                 login(request, user)
-                return redirect('zens')
+                return redirect('main:zens')
             else:
                 messages.error(request, 'Invalid username or password.')
                 print("Invalid login attempt")
@@ -53,7 +53,7 @@ def signup_view(request):
             user = form.save()
             user = authenticate(username=form.cleaned_data['username'], password=form.cleaned_data['password1'])
             login(request, user)
-            return redirect('zens')
+            return redirect('main:zens')
         else:
             print("Form is not valid")
     else:
