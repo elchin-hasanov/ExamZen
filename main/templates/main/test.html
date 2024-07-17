@@ -4,10 +4,11 @@
 {% block content %}
 <div class="container mt-5">
     <!-- Button to open the formula booklet -->
-    <div class="d-flex justify-content-start">
+    {% if subject.name == "Physics" or subject.name ==  "Math" %}
+    <div class="d-flex justify-content-start" style="position: fixed;">
         <button class="btn btn-secondary mb-3" style="background-color:#2e3b55; padding: 10px 30px; margin-top: 50px;" onclick="openFormulaBooklet()">Formula Booklet</button>
     </div>
-    
+    {% endif %}
     {% if subject.name == "History" or subject.name ==  "English" %}
         <h1 class="text-center mb-5" style="margin-top: 50px; font-size: 35px;">Generated Paper 2 </h1>
     {% else %}
