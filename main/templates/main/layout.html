@@ -1,4 +1,3 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,42 +15,44 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <script type="text/javascript" src="https://www.maths.nottingham.ac.uk/plp/pmadw/LaTeXMathML.js"></script>
-  <link rel="icon" type="" href="{% static 'images/logonobg.png' %}">
+  <link rel="icon" href="{% static 'images/logonobg.png' %}">
   <style>
     /* Custom styles for the navbar */
     body {
       font-family: "Manrope", sans-serif;
+      background-color: #f5f6fa; /* Light background color for contrast */
     }
     .navbar-brand {
-      font-size: 20px;
+      font-size: 1.5rem;
       font-weight: 700;
-      color: #fff; /* White text color */
+      color: #2e3b55; /* Dark blue text color */
+      margin-right: auto;
     }
     .navbar-nav .nav-link {
-      font-size: 18px;
-      color: #fff; /* White text color */
-      font-weight: bold; /* Bold text */
+      font-size: 1rem;
+      color: #2e3b55; /* Dark blue text color */
+      font-weight: 500; /* Semi-bold text */
+      padding: 0.5rem 1rem;
+      transition: color 0.3s; /* Smooth transition for color */
     }
-    .navbar-nav .nav-link::after {
-      content: '';
-      position: absolute;
-      bottom: -5px;
-      left: 0;
-      width: 0%;
-      height: 2px;
-      transition: width 0.3s, background-color 0.3s; /* Smooth transition for line width and background color */
-    }
-    .navbar-nav .nav-link:hover::after {
-      width: 100%; /* Expand the line on hover */
+    .navbar-nav .nav-link:hover {
+      color: #00ffa6; /* Light green on hover */
     }
     .navbar-nav .nav-item {
-      margin-left: 20px;
+      margin-left: 1rem;
     }
-    .navbar-toggler .navbar-toggle-icon.nav-link::after {
+    .navbar-toggler {
       border: none;
     }
+    .navbar-toggler:focus {
+      outline: none;
+      box-shadow: none;
+    }
+    .navbar-dark .navbar-toggler-icon {
+      background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 0.5%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+    }
     .navbar-dark {
-      background-color: #2e3b55; /* Elegant dark blue color */
+      background-color: #fff; /* White background color */
     }
     /* Profile Picture Style */
     .profile-picture {
@@ -63,64 +64,62 @@
       height: 40px;
       object-fit: cover;
       border-radius: 50%;
+      border: 2px solid #00ffa6; /* Blue border */
     }
     /* Username Style */
     .profile-username {
-      color: #fff;
+      color: #2e3b55;
       margin-left: 10px; /* Adjust spacing between image and username */
-    }
-    .profile-picture img {
-        border: 2px solid #00ffa6;/* Blue border */
     }
   </style>
 </head>
 
-
 <body>
   {% if not request.path == '/test/' %}
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-  <div class="container">
-    <a class="navbar-brand" href="{% url 'main:home' %}">ExamZen</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto align-items-center">
-        {% if user.is_authenticated %}
-        <li class="nav-item profile-picture">
-          <a class="nav-link" href="{% url 'main:profile' %}">Profile</a>
-        </li>         
-        {% else %}
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="{% url 'main:home' %}">ExamZen</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto align-items-center">
+          {% if user.is_authenticated %}
+          <li class="nav-item profile-picture">
+            <img src="{% static 'images/profile.png' %}" alt="Profile Picture">
+            <span class="profile-username">{{ user.username }}</span>
+          </li>         
+          {% else %}
           <li class="nav-item">
             <a class="nav-link" href="{% url 'main:login' %}">Log In</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{% url 'main:signup' %}">Sign Up</a>
           </li>
-        {% endif %}
-      </ul>
+          {% endif %}
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J32YXFX8W0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J32YXFX8W0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-J32YXFX8W0');
-</script>
-{% endif %}
+    gtag('config', 'G-J32YXFX8W0');
+  </script>
+  {% endif %}
 
-{% block content %}
+  {% block content %}
 
-{% endblock %}
+  {% endblock %}
 
-<!-- jQuery and Bootstrap JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
