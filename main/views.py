@@ -197,7 +197,7 @@ from django.contrib.auth.models import User
 
 def rankings(request):
     # Calculate rankings for all users
-    users = User.objects.annotate(total_points=Sum('reward__points')).order_by('-total_points', 'username')
+    users = User.objects.annotate(total_points=Sum('reward__points')).order_by('total_points', 'username')
     
     user_rankings = []
     for idx, user in enumerate(users, start=1):
