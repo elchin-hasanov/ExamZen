@@ -121,7 +121,7 @@
     {% endif %}
 </div>
 {% endif %}
-
+{% if subject.name == "Physics" or subject.name == "Math" %}
 <!-- Modal for formula booklet -->
 <div class="modal fade" id="formulaModal" tabindex="-1" aria-labelledby="formulaModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -142,6 +142,7 @@
         </div>
     </div>
 </div>
+{% endif %}
 
 <!-- Include Bootstrap JS and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
