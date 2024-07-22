@@ -11,30 +11,31 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <link rel="icon" href="{% static 'images/logonobg.png' %}">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6,MathML"></script>
+  <script src="https://kit.fontawesome.com/706f2b9cf7.js" crossorigin="anonymous"></script>
   <style>
     body {
-      font-family: "Manrope", sans-serif;
-      background-color: #f5f6fa;
+      font-family: "Josefin Sans", sans-serif;
+      background-color: #f5f6fa; /* Light background color for contrast */
     }
     .navbar {
       background-color: #fff;
-      padding: 0.5rem 2rem;
-      border-bottom: 1px solid #e5e5e5;
+      padding: 1rem 2rem;
     }
     .navbar-brand {
       font-size: 1.5rem;
       font-weight: 700;
-      color: #2e3b55;
-      display: flex;
-      align-items: center;
+      color: #0056b3;
     }
-    .navbar-brand img {
-      height: 24px;
-      margin-right: 8px;
+    .navbar-brand:hover {
+      color: #2e3b55;
     }
     .navbar-nav .nav-link {
       font-size: 1rem;
@@ -44,43 +45,33 @@
       transition: color 0.3s;
     }
     .navbar-nav .nav-link:hover {
-      color: #003366;
+      color: #0056b3;
     }
     .navbar-nav .nav-item {
       margin-left: 1rem;
     }
-    .btn-get-started {
+    .get-started {
       background-color: #0056b3;
       color: #fff;
       font-weight: bold;
       border-radius: 5px;
-      padding: 0.5rem 1rem;
-      margin-left: 1rem;
+      padding: 10px 15px;
+      text-decoration: none;
+      display: block;
     }
-    .btn-get-started:hover {
+    .sign-in{
+      border: 1px, solid #004099;
+      border-radius: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .sign-in:hover{
+      background-color: rgb(246, 243, 243);
+    }
+    .get-started:hover {
       background-color: #004099;
       color: #fff;
-    }
-    .navbar-toggler {
-      border: none;
-    }
-    .navbar-toggler:focus {
-      outline: none;
-      box-shadow: none;
-    }
-    .navbar-dark .navbar-toggler-icon {
-      background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 0.5%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
-    }
-    .profile-picture {
-      display: flex;
-      align-items: center;
-    }
-    .profile-picture img {
-      width: 40px;
-      height: 40px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 2px solid #00ffa6;
+      text-decoration: none;
     }
     .profile-username {
       color: #2e3b55;
@@ -91,27 +82,24 @@
 
 <body>
   {% if not request.path == '/test/' %}
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-sm">
     <div class="container">
-      <a class="navbar-brand" href="{% url 'main:home' %}">
-        <img src="{% static 'images/logo.png' %}" alt="Logo"> ExamZen
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <a class="navbar-brand" href="{% url 'main:home' %}">ExamZen</a>
+      <div class="collapse navbar-collapse"  id="navbarNav">
         <ul class="navbar-nav ml-auto align-items-center">
           <li class="nav-item">
-            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" href="{% url 'main:profile' %}">Profile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#demo">Book a demo</a>
+            <a class="nav-link" style="cursor: pointer;">About us</a>
           </li>
-          <li class="nav-item">
-            <a class="btn btn-get-started" href="#get-started">Get started</a>
-          </li>
-          <li class="nav-item">
+          {% if user.is_authenticated == False %}
+          <li class="nav-item sign-in">
             <a class="nav-link" href="{% url 'main:login' %}">Sign in</a>
+          </li>
+          {% endif %}
+          <li class="nav-item">
+            <a class="get-started" href="{% url 'main:zens' %}">Get started</a>
           </li>
         </ul>
       </div>

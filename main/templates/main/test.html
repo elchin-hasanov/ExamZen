@@ -7,7 +7,7 @@
 <div class="container mt-5">
     <div class="fixed-top mt-5"  style="margin-left: 35px;">
         <button class="btn btn-secondary mb-3" style="background-color:#2e3b55; padding: 10px 40px; margin-top: 50px;" onclick="openFormulaBooklet()">
-            <i class="fa fa-book">Booklet</i>
+            <i class="fa fa-book"></i>
         </button>
     </div>
     <!-- Button to open the formula booklet -->
@@ -123,7 +123,7 @@
 {% endif %}
 
 <!-- Modal for formula booklet -->
-<div class="modal fade" id="formulaModal" tabindex="-1" aria-labelledby="formulaModalLabel" aria-hidden="true" style="background">
+<div class="modal fade" id="formulaModal" tabindex="-1" aria-labelledby="formulaModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
@@ -155,6 +155,10 @@
 </script>
 
 <style>
+    body{
+        font-family: "Manrope", sans-serif;
+    }
+
     .radio-toolbar {
         display: flex;
         flex-direction: column; /* Display radio buttons in a column */
@@ -178,7 +182,6 @@
         align-items: center; /* Center text vertically */
         background-color: #f0f0f0; /* Light grey background */
         padding: 8px 12px; /* Adjusted padding for smaller size */
-        font-family: sans-serif, Arial;
         font-size: 17px; /* Reduced font size for smaller size */
         color: #333; /* Darker text color for better readability */
         border: 2px solid #ccc; /* Light grey border */
