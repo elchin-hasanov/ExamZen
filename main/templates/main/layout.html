@@ -11,7 +11,6 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -19,26 +18,33 @@
   <style>
     body {
       font-family: "Manrope", sans-serif;
-      background-color: #f5f6fa; /* Light background color for contrast */
+      background-color: #f5f6fa;
     }
     .navbar {
       background-color: #fff;
-      padding: 1rem 2rem;
+      padding: 0.5rem 2rem;
+      border-bottom: 1px solid #e5e5e5;
     }
     .navbar-brand {
       font-size: 1.5rem;
       font-weight: 700;
       color: #2e3b55;
+      display: flex;
+      align-items: center;
+    }
+    .navbar-brand img {
+      height: 24px;
+      margin-right: 8px;
     }
     .navbar-nav .nav-link {
       font-size: 1rem;
-      color: #2e3b55;
+      color: #0056b3;
       font-weight: 500;
       padding: 0.5rem 1rem;
       transition: color 0.3s;
     }
     .navbar-nav .nav-link:hover {
-      color: #0056b3;
+      color: #003366;
     }
     .navbar-nav .nav-item {
       margin-left: 1rem;
@@ -49,6 +55,7 @@
       font-weight: bold;
       border-radius: 5px;
       padding: 0.5rem 1rem;
+      margin-left: 1rem;
     }
     .btn-get-started:hover {
       background-color: #004099;
@@ -73,7 +80,7 @@
       height: 40px;
       object-fit: cover;
       border-radius: 50%;
-      border: 2px solid #00ffa6; /* Blue border */
+      border: 2px solid #00ffa6;
     }
     .profile-username {
       color: #2e3b55;
@@ -86,7 +93,9 @@
   {% if not request.path == '/test/' %}
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="{% url 'main:home' %}">ExamZen</a>
+      <a class="navbar-brand" href="{% url 'main:home' %}">
+        <img src="{% static 'images/logo.png' %}" alt="Logo"> ExamZen
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
