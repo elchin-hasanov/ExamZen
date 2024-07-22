@@ -191,9 +191,13 @@ def submit_exam(request):
 
     return redirect('main:zens')
 
+from django.shortcuts import render
+from django.db.models import Sum
+from django.contrib.auth.models import User
+
 def rankings(request):
     # Calculate rankings for all users
-    users = User.objects.annotate(total_points=Sum('reward__points')).order_by('-total_points')
+    users = User.objects.annotate(total_points=Sum('reward__points')).order_by('-total_points', 'username')
     
     user_rankings = []
     for idx, user in enumerate(users, start=1):
@@ -208,6 +212,7 @@ def rankings(request):
     }
     
     return render(request, 'main/ranking.html', context)
+
 
 @login_required
 def profile(request):
