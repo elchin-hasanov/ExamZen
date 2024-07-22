@@ -89,10 +89,7 @@
         {% if user.is_authenticated %}
         <li class="nav-item profile-picture">
           <a class="nav-link" href="{% url 'main:profile' %}">Profile</a>
-        </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{% url 'main:rankings' %}">Rankings</a>
-          </li>          
+        </li>         
         {% else %}
           <li class="nav-item">
             <a class="nav-link" href="{% url 'main:login' %}">Log In</a>

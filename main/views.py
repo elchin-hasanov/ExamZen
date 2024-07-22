@@ -16,16 +16,16 @@ import random
 from .models import User, Reward
 
 def home(request):
-    top_users_with_points = User.objects.annotate(total_points=Sum('reward__points')).order_by('total_points', 'username')[:3]
-    context = {
-        'first_place_user': top_users_with_points[0].username if top_users_with_points else None,
-        'first_place_points': top_users_with_points[0].total_points if top_users_with_points else None,
-        'second_place_user': top_users_with_points[1].username if len(top_users_with_points) > 1 else None,
-        'second_place_points': top_users_with_points[1].total_points if len(top_users_with_points) > 1 else None,
-        'third_place_user': top_users_with_points[2].username if len(top_users_with_points) > 2 else None,
-        'third_place_points': top_users_with_points[2].total_points if len(top_users_with_points) > 2 else None,
-    }
-    return render(request, 'main/home.html', context)
+    # top_users_with_points = User.objects.annotate(total_points=Sum('reward__points')).order_by('total_points', 'username')[:3]
+    # context = {
+    #     'first_place_user': top_users_with_points[0].username if top_users_with_points else None,
+    #     'first_place_points': top_users_with_points[0].total_points if top_users_with_points else None,
+    #     'second_place_user': top_users_with_points[1].username if len(top_users_with_points) > 1 else None,
+    #     'second_place_points': top_users_with_points[1].total_points if len(top_users_with_points) > 1 else None,
+    #     'third_place_user': top_users_with_points[2].username if len(top_users_with_points) > 2 else None,
+    #     'third_place_points': top_users_with_points[2].total_points if len(top_users_with_points) > 2 else None,
+    # }
+    return render(request, 'main/home.html')
 
 def login_view(request):
     if request.method == 'POST':
@@ -191,27 +191,23 @@ def submit_exam(request):
 
     return redirect('main:zens')
 
-from django.shortcuts import render
-from django.db.models import Sum
-from django.contrib.auth.models import User
-
-def rankings(request):
-    # Calculate rankings for all users
-    users = User.objects.annotate(total_points=Sum('reward__points')).order_by('total_points', 'username')
+# def rankings(request):
+#     # Calculate rankings for all users
+#     users = User.objects.annotate(total_points=Sum('reward__points')).order_by('total_points', 'username')
     
-    user_rankings = []
-    for idx, user in enumerate(users, start=1):
-        user_rankings.append({
-            'rank': idx,
-            'username': user.username,
-            'points': user.total_points or 0,
-        })
+#     user_rankings = []
+#     for idx, user in enumerate(users, start=1):
+#         user_rankings.append({
+#             'rank': idx,
+#             'username': user.username,
+#             'points': user.total_points or 0,
+#         })
     
-    context = {
-        'user_rankings': user_rankings,
-    }
+#     context = {
+#         'user_rankings': user_rankings,
+#     }
     
-    return render(request, 'main/ranking.html', context)
+#     return render(request, 'main/ranking.html', context)
 
 
 @login_required

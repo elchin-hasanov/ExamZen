@@ -20,6 +20,6 @@ urlpatterns = [
     path('zens/', views.zen, name='zens'),
     path('submit-exam/', views.submit_exam, name='submit_exam'),
     path('profile/', views.profile, name='profile'),
-    path('rankings/', views.rankings, name="rankings"),
+    # path('rankings/', views.rankings, name="rankings"),
     
 ]
