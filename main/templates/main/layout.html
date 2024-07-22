@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,7 +87,6 @@
         <ul class="navbar-nav ml-auto align-items-center">
           {% if user.is_authenticated %}
           <li class="nav-item profile-picture">
-            <img src="{% static 'images/profile.png' %}" alt="Profile Picture">
             <span class="profile-username">{{ user.username }}</span>
           </li>         
           {% else %}
