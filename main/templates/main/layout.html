@@ -1,6 +1,7 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,12 @@
   <meta name="keywords" content="exam preparation, online exams, ExamZen, ib questions, ib practice">
   <meta name="google-adsense-account" content="ca-pub-2203838078531753">
   <title>ExamZen</title>
+  <link rel="icon" type="image/png" href="{% static 'images/logonobg.png' %}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/logonobg.png' %}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/logonobg.png' %}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/logonobg.png' %}">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="icon" type="image/x-icon" href="{% static 'images/logonobg.png' %}">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -80,6 +84,7 @@
   </style>
 </head>
 
+
 <body>
   {% if not request.path == '/test/' %}
   <nav class="navbar navbar-expand-sm">
@@ -126,4 +131,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
+
 </html>
