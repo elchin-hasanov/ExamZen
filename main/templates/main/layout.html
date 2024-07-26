@@ -84,21 +84,22 @@
   </style>
 </head>
 
-
 <body>
   {% if not request.path == '/test/' %}
   <nav class="navbar navbar-expand-sm">
     <div class="container">
       <a class="navbar-brand" href="{% url 'main:home' %}">ExamZen</a>
-      <div class="collapse navbar-collapse"  id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto align-items-center">
           <li class="nav-item">
             <a class="nav-link" href="{% url 'main:profile' %}">Profile</a>
           </li>
+          {% if request.path == '/' %}
           <li class="nav-item">
-            <a class="nav-link" style="cursor: pointer;">About us</a>
+            <a class="nav-link" id="aboutUsLink" style="cursor: pointer;">About us</a>
           </li>
-          {% if user.is_authenticated == False %}
+          {% endif %}
+          {% if not user.is_authenticated %}
           <li class="nav-item sign-in">
             <a class="nav-link" href="{% url 'main:login' %}">Sign in</a>
           </li>
@@ -110,6 +111,8 @@
       </div>
     </div>
   </nav>
+  {% endif %}
+  
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-J32YXFX8W0"></script>
@@ -120,17 +123,28 @@
 
     gtag('config', 'G-J32YXFX8W0');
   </script>
-  {% endif %}
-
   {% block content %}
-
+  <!-- Your content here -->
   {% endblock %}
 
   <!-- jQuery and Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
 
+  <!-- Custom JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('aboutUsLink').addEventListener('click', function() {
+        // Check if the user is on the home page
+        if (window.location.pathname === '/') {
+          // If on the home page, scroll to the bottom
+          window.scrollTo(0, document.body.scrollHeight);
+        }
+      });
+    });
+  </script>
+  
+</body>
 
 </html>
