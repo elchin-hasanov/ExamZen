@@ -65,11 +65,9 @@ def logout_view(request):
     logout(request)
     return redirect('main:home')
 
-@login_required
 def zen(request):
     return render(request, 'main/zens.html')
 
-@login_required
 def lobby(request):
     subject = request.GET.get('subject', '')
     return render(request, 'main/lobby.html', {'subject': subject})
