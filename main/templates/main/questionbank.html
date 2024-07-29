@@ -78,7 +78,7 @@
                     </thead>
                     <tbody>
                         {% for question in questions %}
-                        {% if subject_name == "Math" or subject_name == "Physics" %}
+                        {% if subject_name == "Math" or subject_name == "Physics" or subject_name == "Chemistry" %}
                         <tr >
                             <td>{{ forloop.counter }}</td>
                             <td>{{ question.topic }}</td>

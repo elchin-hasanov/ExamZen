@@ -22,6 +22,9 @@ class Question(models.Model):
     choices = models.CharField(max_length=10000, blank=True, null=True)
     topic = models.CharField(max_length=150, blank=True)
 
+    def split_str(self):
+        return self.choices.split('\\n')
+
     def __str__(self):
         return self.text
 

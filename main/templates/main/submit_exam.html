@@ -24,6 +24,9 @@
                 {% for question in paper1_instance.questions.all %}
                 <div class="mb-5">
                     <h6>{{ forloop.counter }}. {{ question.text }}</h6>
+                    {% for choice in question.split_str %}
+                        <p class="mb-2">{{ choice }}</p>
+                    {% endfor %}
                     <p style="margin-top: 10px;"><strong>Correct Answer:</strong> {{ question.answer }}</p>
                 </div>
                 {% endfor %}
@@ -62,6 +65,10 @@
 </div>
 
 <style>
+    body{
+        font-family: "Manrope", sans-serif;
+    }
+
 .correct-answers-badge {
     display: flex;
     flex-direction: column;

@@ -97,7 +97,7 @@ def test(request):
     if subject_name:
         subject = get_object_or_404(Subject, name=subject_name)
         
-        if subject_name in ["Math", "Physics"]:
+        if subject_name in ["Math", "Physics", "Chemistry"]:
             if paper == '1':
                 questions_paper1 = list(Question.objects.filter(subject=subject, paper='1'))
                 selected_questions_paper1 = random.sample(questions_paper1, min(11 if subject_name == "Math" else 40, len(questions_paper1)))
@@ -171,9 +171,6 @@ def submit_exam(request):
             paper1_instance.paper1_correct_answers = correct_answers_count
 
             paper1_instance.save()
-
-            Reward.objects.create(user=request.user, points=correct_answers_count)
-
 
         if paper2_instance:
             paper2_answers = request.POST.get('answers_paper2', '')

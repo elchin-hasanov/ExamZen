@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     body {
-      background-color: #ffffff;
       color: #222;
       user-select: none;
       margin: 0;
@@ -19,7 +18,7 @@
       display: table;
       width: 100%;
       height: calc(100vh - 175px); /* Adjusted height */
-      background-color: #FFFFFF;
+      background-color: #f5f6fa;
       text-align: center;
       padding-top: 50px; /* Adjusted padding top */
       padding-bottom: 50px; /* Adjusted padding bottom */
@@ -51,7 +50,7 @@
       background-color: #222; /* Dark footer background */
       color: #E0E5EC;
       padding:5px 0;
-      position: fixed;
+      /* position: fixed; */
       bottom: 0;
       width: 100%;
       z-index: 999; /* Ensure footer stays above content */
@@ -74,38 +73,47 @@
   </style>
 </head>
 <body>
-  <section class="zen-section">
+  <section class="zen-section" >
     <div class="zen-table-cell">
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-6 mb-4">
             <a href="{% url 'main:lobby' %}?subject=English">
-              <img src="{% static 'images/3.png' %}" alt="Zen Image 1" class="zen-img">
+              <img src="{% static 'images/english.jpeg' %}" alt="Zen Image 1" class="zen-img">
             </a>
             <h2 class="zen-title">English</h2>
           </div>
           <div class="col-md-3 col-sm-6 mb-4">
             <a href="{% url 'main:lobby' %}?subject=Physics">
-              <img src="{% static 'images/physics.png' %}" alt="Zen Image 1" class="zen-img">
+              <img src="{% static 'images/physics.jpeg' %}" alt="Zen Image 1" class="zen-img">
             </a>
             <h2 class="zen-title">Physics</h2>
           </div>
           <div class="col-md-3 col-sm-6 mb-4">
             <a href="{% url 'main:lobby' %}?subject=History">
-              <img src="{% static 'images/1.png' %}" alt="Zen Image 1" class="zen-img">
+              <img src="{% static 'images/history.jpeg' %}" alt="Zen Image 1" class="zen-img">
             </a>
             <h2 class="zen-title">History</h2>
           </div>
           <div class="col-md-3 col-sm-6 mb-4">
             <a href="{% url 'main:lobby' %}?subject=Math">
-              <img src="{% static 'images/math.png' %}" alt="Zen Image 1" class="zen-img">
+              <img src="{% static 'images/math.jpeg' %}" alt="Zen Image 1" class="zen-img">
             </a>
             <h2 class="zen-title">Math</h2>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <a href="{% url 'main:lobby' %}?subject=Chemistry">
+              <img src="{% static 'images/chemistry.jpeg' %}" alt="Zen Image 1" class="zen-img">
+            </a>
+            <h2 class="zen-title">Chemistry</h2>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+
+
   <footer class="text-center" style="bottom: 0px; width: 100%;">
     <div class="container">
       <div class="d-flex justify-content-center">
