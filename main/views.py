@@ -1,4 +1,3 @@
-from io import BytesIO
 from django.contrib.auth import authenticate, login
 from django.contrib import messages
 from .forms import SignUpForm, LoginForm
